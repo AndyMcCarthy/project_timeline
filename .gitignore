@@ -25,3 +25,8 @@ yarn-error.log*
 
 /server/venv/
 /server/.env
+/server/external_data.db
+/server/llama_cpp_python-0.2.24-cp311-cp311-win_amd64.whl
+/server/llama-2-7b.Q4_K_M.gguf
+/server/my_docs.pkl
+/server/documents/*

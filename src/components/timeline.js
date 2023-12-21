@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState} from "react";
 import {DataSet} from "vis-data";
 import { Timeline } from "vis-timeline/standalone";
 import Document from "./Document.png"
+import clinicaltrial from "./clinicaltrial.png"
 import './timeline.css'
 
 export const VisTimeline = () => {
@@ -9,7 +10,8 @@ export const VisTimeline = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/timeline");
+      const response = await fetch("/api/timeline");
+      console.log(response)
       const data = await response.json();
       setTimelineData(data);
     } catch (error) {
@@ -18,6 +20,20 @@ export const VisTimeline = () => {
   };
 
   const visJsContainer = useRef(null);
+
+  const imageSelection = (image_type) =>{
+    console.log(image_type)
+    if(image_type === 1){
+      return Document
+    }
+    if(image_type === 3){
+      return clinicaltrial
+    }
+    
+    return Document
+    
+    
+  }
 
   useEffect(() => {
     fetchData();
@@ -29,13 +45,15 @@ export const VisTimeline = () => {
 
     const datasetItems = new DataSet([]);
     timelineData.map(event => {
-      const this_event = {id: event.Id, group: event.group, content: event.content, editable: event.editable, type: event.type, className: event.className, start: event.start, end: event.start, title: event.title};
+      const this_event = {id: event.Id, group: event.group, content: `<img src='${imageSelection(event.group)}' style='width: 28px; height: 28px;'> <a href=${event.hyperlink} target="_blank">${event.content}</a> `, editable: event.editable, type: event.type, className: event.className, start: event.start, end: event.end || event.start, title: event.title};
       datasetItems.add(this_event);
     });
 
     const groups = new DataSet([
+      { id: 3, content: "Clinical Trials" },
       { id: 1, content: "Patents" },
       { id: 2, content: "Papers" },
+
     ]);
 
     const today = new Date();
