@@ -2,7 +2,7 @@
 #.\venv\Scripts\activate
 # http://localhost:8080/api/timeline
 # pip install .\llama_cpp_python-0.2.24-cp311-cp311-win_amd64.whl
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request, abort
 from flask_cors import CORS
 import pickle
 import os
@@ -17,7 +17,7 @@ CORS(app)
 
 # /api/home
 @app.route("/api/timeline", methods=['GET'])
-def return_home():
+def return_timeline():
     return jsonify([
     { "id": "item1", "group":1, "content": "PCSK9", "hyperlink": "https://patentimages.storage.googleapis.com/55/df/ca/09af3f5d4ce33d/US8809292.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2014-08-19', "title": "siRNA PCSK9"},
     { "id": "item2", "group":1, "content": "SNCA", "hyperlink": "https://patentimages.storage.googleapis.com/28/40/cd/b42ef8e3a84681/WO2023192977A2.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2023-10-05', "title": "siRNA SNCA"},
@@ -28,12 +28,21 @@ def return_home():
     { "id": "item7", "group":1, "content": "SCN9A", "hyperlink": "https://patentimages.storage.googleapis.com/d2/4d/0c/efce7039b09874/WO2021207189A1.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2021-04-06', "title": "The disclosure relates to double-stranded ribonucleic acid (dsRNA) compositions targeting SCN9A, and methods of using such dsRNA compositions to alter (e.g., inhibit) expression of SCN9A"},  
     { "id": "item8", "group":1, "content": "MAPT", "hyperlink": "https://patentimages.storage.googleapis.com/74/d0/f5/4edac19b8fe1fb/WO2021188626A1.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2021-03-17', "title": "siRNA MAPT"},  
 
-
-    { "id": "item9", "group":2, "content": 'Study 1', "editable": "false", "type":'box', "className": "Paper", "start": '2022-06-16', "title": "hello alynylam"},
+    { "id": "item9", "group":2, "content": 'A status report on RNAi therapeutics', 'hyperlink': "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2908561/", "editable": "false", "type":'box', "className": "Paper", "start": '2010-07-08', "title": "This review attempts to summarize the current understanding on siRNA lead discovery, the delivery of RNAi therapeutics, typical in vivo pharmacological profiles, preclinical safety evaluation and an overview of the 14 programs that have already entered clinical practice."},
+    
     { "id": "item10", "group":3, "content": 'NCT05231785', "hyperlink" : "https://clinicaltrials.gov/study/NCT05231785", "editable": "false", "type":'range', "className": "ClinicalTrial", "start": '2022-02-04', "end": '2025-07-01', "title": "A Randomized, Double-blind, Placebo-controlled Single Ascending Dose and Open-label Multi-dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Intrathecally Administered ALN-APP in Adult Patients With Early-onset"},
     { "id": "item10", "group":3, "content": 'NCT03759379', "hyperlink" : "https://clinicaltrials.gov/study/NCT03759379", "editable": "false", "type":'range', "className": "ClinicalTrial", "start": '2019-02-14', "end": '2020-11-01', "title": "The purpose of this study is to evaluate the efficacy and safety of vutrisiran (ALN-TTRSC02) in participants with hereditary transthyretin amyloidosis (hATTR amyloidosis). Participants will receive vutrisiran subcutaneous (SC) injection once every 3 months (q3M) or the reference comparator patisiran intravenous (IV) injection once every 3 weeks (q3w) during the 18 month Treatment Period. This study will use the placebo arm of the APOLLO study (NCT01960348) as an external comparator for the primary and most other efficacy endpoints during the 18 Month Treatment Period. Following the 18 Month Treatment Period, all participants will be randomized to receive vutrisiran SC injection once every 6 months (q6M) or q3M in the Randomized Treatment Extension (RTE) Period."},
     
     ])
+
+@app.route("/api/question", methods=['POST'])
+def answer_question():
+    if not request.json or not 'question' in request.json:
+        abort(400)
+    return jsonify(
+    { "question":  request.json['question'], "response": "hello world"},
+    
+    )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,30 @@
+html {
+    font-family: sans-serif;
+}
+  
+.vis-item .vis-item-content {
+    overflow: visible !important;
+}
+
+.vis-item.ClinicalTrial {
+    background-color: gold;
+    border-color: orange;
+}
+
+.vis-item.Paper {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+.vis-item.Patent {
+    background-color: lightgreen;
+    border-color: darkgreen;
+}
+
+
+div.vis-tooltip{
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    max-width: 500px; 
+    background-color: #ffffff !important;
+}

@@ -1,0 +1,15 @@
+.form-box {
+position: relative;
+padding: 5vw;
+margin: 0vw
+}
+
+
+.Sbmtbtn{
+    margin: 1rem 0 1rem 0;
+    display: inline-block;
+    left: 50%;
+    color:dimgray;
+    border-radius: 20%;
+    position: absolute;
+}

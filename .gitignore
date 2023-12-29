@@ -30,3 +30,4 @@ yarn-error.log*
 /server/llama-2-7b.Q4_K_M.gguf
 /server/my_docs.pkl
 /server/documents/*
+/server/edit_db.py

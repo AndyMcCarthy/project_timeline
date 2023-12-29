@@ -1,5 +1,6 @@
 import './App.css';
-import {VisTimeline} from'./components/timeline'
+import {VisTimeline} from'./components/timeline/timeline'
+import {ChatToData} from'./components/chatToData/chatToData'
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         </p>
         <div>
        <VisTimeline></VisTimeline>
+       </div>
+       <div>
+        <ChatToData></ChatToData>
        </div>
       </header>
 
