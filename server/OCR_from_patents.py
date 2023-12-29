@@ -8,10 +8,12 @@ from pathlib import Path
 import pytesseract
 from pdf2image import convert_from_path
 from PIL import Image
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
 # creating a pdf file object
 pdfname = 'WO2021188626A1'
-pdfFile = fr'C:\Users\apmcc\Documents\github_projects\project_timeline\server\documents\patents\{pdfname}.pdf'
+pdfFile = fr'\server\documents\patents\{pdfname}.pdf'
  
 
 if platform.system() == "Windows":
@@ -20,14 +22,14 @@ if platform.system() == "Windows":
 	# https://github.com/UB-Mannheim/tesseract/wiki/Downloading-Tesseract-OCR-Engine
 
 	pytesseract.pytesseract.tesseract_cmd = (
-		r"C:\Users\apmcc\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+		os.getenv("tesseract_path")
 	)
 
 	# Windows also needs poppler_exe
-	path_to_poppler_exe = Path(r"C:\Users\apmcc\AppData\Local\Programs\poppler-23.11.0\Library\bin")
+	path_to_poppler_exe = Path(os.getenv("poppler_path"))
 	
 	# Put our output files in a sane place...
-	out_directory = Path(r"C:\Users\apmcc\Documents\github_projects\project_timeline\server\documents\patents").expanduser()
+	out_directory = Path(r"\server\documents\patents").expanduser()
 else:
 	out_directory = Path("~").expanduser()	 
 

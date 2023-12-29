@@ -58,8 +58,21 @@ export const VisTimeline = () => {
     const today = new Date();
     const options = {
       width: '100%',
-      start: '2014-01-01',
-      end: new Date().setFullYear(today.getFullYear() + 1)
+      start: '2010-01-01',
+      end: new Date().setFullYear(today.getFullYear() + 1),
+      editable:true,
+      tooltip: {
+				followMouse: true,
+				template: function (originalItemData, parsedItemData) {
+				//console.log(originalItemData)
+				return `<div style="max-width:300px; word-wrap:break-word;">
+							<p>${originalItemData.content}</p>${(originalItemData.title == null) ? '': `<p id="para1">${originalItemData.title} </p>`   }
+						</div>
+				`;
+				//return ReactDOM.render(<b>{originalItemData.content}</b>, parsedItemData);
+				},
+
+			},
     };
 
     const timeline = visJsContainer.current && new Timeline(visJsContainer.current, datasetItems, groups, options);
