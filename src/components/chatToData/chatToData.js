@@ -38,8 +38,10 @@ export const ChatToData = () => {
     return <>
     <div className="form-box">
     <form onSubmit={handleSubmit}>
-    <textarea id= "question" name = "question" type = "text" onChange={e => setQuestion(e.target.value)} rows = {5} cols={150} placeholder={"Ask your question"}></textarea >
+    <textarea id= "question" name = "question" type = "text" onChange={e => setQuestion(e.target.value)} rows = {3} cols={150} placeholder={"Ask your question"}></textarea >
+    <div>
     <button type ='Submit' className="Sbmtbtn" >Submit </button>
+    </div>
     </form>
     {(answer !== '') ? <p> {answer.response}</p>:null}
     </div>
