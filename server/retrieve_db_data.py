@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def main():
-    sqliteConnection = sqlite3.connect('external_data.db')
+    sqliteConnection = sqlite3.connect('external_data.db',detect_types=sqlite3.PARSE_DECLTYPES | sqlite3.PARSE_COLNAMES)
 
     sql_query = """SELECT name FROM sqlite_master  
     WHERE type='table';"""
@@ -16,7 +16,7 @@ def main():
     df = pd.read_sql_query("SELECT * from Documents", sqliteConnection)
 
     # Verify that result of SQL query is stored in the dataframe
-    print(df.columns)
+    print(df)
 
     df = pd.read_sql_query("SELECT * from Experiments", sqliteConnection)
 

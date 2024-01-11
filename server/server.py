@@ -7,6 +7,10 @@ from flask_cors import CORS
 import pickle
 import os
 from dotenv import load_dotenv
+import sqlite3
+import pandas as pd
+import datetime
+
 load_dotenv()
 # load
 with open("my_docs.pkl", "rb") as f:
@@ -24,9 +28,11 @@ def return_timeline():
     { "id": "item3", "group":1, "displayName": "HTT", "hyperlink": "https://patentimages.storage.googleapis.com/25/2f/00/6e133bb7be71e1/WO2023076450A2.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2023-05-04', "title": "siRNA HTT"},
     { "id": "item4", "group":1, "displayName": "TTR", "hyperlink": "https://patentimages.storage.googleapis.com/28/b5/4b/1b0a9a9c0d0295/AU2023248138A1.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2023-10-12', "title": "siRNA TTR"},
     { "id": "item5", "group":1, "displayName": "ANGPTL7", "hyperlink": "https://patentimages.storage.googleapis.com/68/26/0a/c060ee00f0d055/WO2023056478A1.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2022-09-30', "title": "siRNA ANGPTL7"},  
+    
+    
     { "id": "item6", "group":1, "displayName": "ATXN2", "hyperlink": "https://patentimages.storage.googleapis.com/cc/f3/67/8df6cfe87f1403/WO2022026531A1.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2021-07-28', "title": "siRNA ATXN2"},  
     { "id": "item7", "group":1, "displayName": "SCN9A", "hyperlink": "https://patentimages.storage.googleapis.com/d2/4d/0c/efce7039b09874/WO2021207189A1.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2021-04-06', "title": "The disclosure relates to double-stranded ribonucleic acid (dsRNA) compositions targeting SCN9A, and methods of using such dsRNA compositions to alter (e.g., inhibit) expression of SCN9A"},  
-    { "id": "item8", "group":1, "displayName": "MAPT", "hyperlink": "https://patentimages.storage.googleapis.com/74/d0/f5/4edac19b8fe1fb/WO2021188626A1.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2021-03-17', "title": "siRNA MAPT"},  
+    { "id": "item8", "group":1, "displayName": "MAPT", "hyperlink": "https://patentimages.storage.googleapis.com/cc/f3/67/8df6cfe87f1403/WO2022026531A1.pdf", "editable": "false", "type":'box', "className": "Patent", "start": '2021-03-17', "title": "siRNA MAPT"},  
 
     { "id": "item9", "group":2, "displayName": 'A status report on RNAi therapeutics', 'hyperlink': "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2908561/", "editable": "false", "type":'box', "className": "Paper", "start": '2010-07-08', "title": "This review attempts to summarize the current understanding on siRNA lead discovery, the delivery of RNAi therapeutics, typical in vivo pharmacological profiles, preclinical safety evaluation and an overview of the 14 programs that have already entered clinical practice."},
     
@@ -44,7 +50,11 @@ def answer_question():
     
     )
 
-
+@app.route("/api/timelinetoo", methods=['GET'])
+def return_timelinetoo():
+    sqliteConnection = sqlite3.connect('external_data.db')
+    df = pd.read_sql_query("SELECT * from Documents where Source = 'Alnylam'", sqliteConnection)
+    return df.to_json( orient= 'records')
 
 from flask_swagger_ui import get_swaggerui_blueprint
 

@@ -17,7 +17,7 @@ export const VisTimeline = () => {
 
 	const fetchData = async () => {
 		try {
-			const response = await fetch("/api/timeline");
+			const response = await fetch("/api/timelinetoo");
 			const data = await response.json();
 			setTimelineData(data);
 		} catch (error) {
@@ -65,6 +65,7 @@ export const VisTimeline = () => {
 	}
 
 	const handleUpdate = (event, reason) => {
+		event.preventDefault();
 		if (reason === 'backdropClick' || reason === 'escapeKeyDown') {
 		  return;
 		}
@@ -103,7 +104,8 @@ export const VisTimeline = () => {
 		if (timelineData.length === 0) return;
 
 		const datasetItems = new DataSet([]);
-		timelineData.map(event => {
+		console.log(timelineData)
+		/*timelineData.map(event => {
 			const this_event = {
 				id: event.Id,
 				group: event.group,
@@ -116,6 +118,23 @@ export const VisTimeline = () => {
 				title: event.title,
 				hyperlink: event.hyperlink,
 				displayName: event.displayName
+			};
+			datasetItems.add(this_event);
+		});*/
+
+		timelineData.map(event => {
+			const this_event = {
+				id: event.DOI,
+				group: event.document_group,
+				content: `<img src='${imageSelection(event.document_group)}' style='width: 28px; height: 28px;'> <a href=${event.hyperlink} target="_blank">${event.Target_Gene}</a> `,
+				editable: false,
+				type: "box",
+				className: "Patent",
+				start: new Date(event.start),
+				end: event.end || new Date(event.start),
+				title: event.description,
+				hyperlink: event.hyperlink,
+				displayName: event.DOI
 			};
 			datasetItems.add(this_event);
 		});

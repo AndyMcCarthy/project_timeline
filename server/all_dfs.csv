@@ -1,0 +1,368 @@
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA,Start,End,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,Name,Site,Site,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_609- 5Chol,609,628,exon 3,4913,GTTTTCC CTTTGTT CAATAC,/CholTEG//isp18//isp18/moeGm beTmoeTmoeTmoeT/iMe- dc/*/iMe-dc/*/iMe- dC/*T*T*T*G*T*T*/iMe- dC/*moeAmoeAmoeT*moeA*/5-Me- moeC/,43,53,60,81
+3,hSCN9A v1_609- 8gap,609,628,exon 3,4913,GTTTTCC CTTTGTT CAATAC,moeG*moeTmoeTmoeTmoeT/5-Me- moeC//iMe-dc/*/iMe- dc/*T*T*T*G*T*T*/5-Me- moeC/moeAmoeAmoeTmoeA/5-Me- moeC//isp18//isp18//3CholTEG /,32,34,49,80
+4,hSCN9A v1_609- 8gap- 5Chol,609,628,exon 3,4913,GTTTTCC CTTTGTT CAATAC,/CholTEG//isp18//isp18/moeGm beTmoeTmoeTmoeT/5-Me- moeC//iMe-dC/*/iMe- dc/*T*T*T*G*T*T*/5-Me- moeC/moeAmoeAmoeT*moeA*/5- Me-moeC/,69,77,81,95
+5,hSCN9A v1_609- LNA,609,624,exon 3,4914,TCCCTTT GTTCAAT AC,1T*/5-Me-1C//5-Me-1C//iMe- dC/*T*T*T*G*T*T*/iMe- dC/*A*A*lTlA/5-Me- 1C//isp18//isp18//3CholTEG/,19,28,39,60
+6,hSCN9A v1_609- MBB,609,628,exon 3,4913,GTTTTCC CTTTGTT CAATAC,moeG*moeTmoeTmoeTmoeT/iMe- dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*T*/iMe- dC/*moeAmoeAmoeT*moeA*/5-Me- moeC//isp18//isp18//3CholTEG /,13,20,27,66
+7,hSCN9A v1_609- NewPS,609,628,exon 3,4913,GTTTTCC CTTTGTT CAATAC,moeG*moeTmoeTmoeTmoeT/iMe- dC/*/iMe-dc/*/iMe- dC/*T*T*T*G*T*T*/iMe- dC/*moeAmoeAmoeTmoeA/5-Me- moeC//isp18//isp18//3CholTEG /,12,15,31,68
+8,hSCN9A v1_609- Nogap,609,628,exon 3,4913,GTTTTCC CTTTGTT CAATAC,moeG*moeTmoeT*moeTmoeT*/5- Me-moeC//5-Me-moeC/*/5-Me- moeC/moeT*moeTmoeT*moeGmoeT* moeT/5-Me- moeC/*moeAmoeA*moeTmoeA*/5- Me- moeC//isp18//isp18//3CholTEG /,67,97,101,117
+9,hSCN9A v1_610- 5Chol,610,629,exon 3,333,TGTTTTC CCTTTGT TCAATA,/CholTEG//isp18//isp18/moeTm beGmoeTmoeTmoeTT*/iMe- dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*T*/5-Me- moeC/moeAmoeA*moeT*moeA,42,52,74,86
+10,hSCN9A v1_610- 8gap,610,629,exon 3,333,TGTTTTC CCTTTGT TCAATA,moeT*moeGmoeTmoeTmoeTmoeT/iM e-dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*moeT/5-Me- moeC/moeAmoeAmoeTmoeA/isp18/ /isp18//3CholTEG/,26,35,45,64
+11,hSCN9A v1_610- 8gap- 5Chol,610,629,exon 3,333,TGTTTTC CCTTTGT TCAATA,/CholTEG//isp18//isp18/moeTm oeGmoeTmoeTmoeTmoeT/iMe- dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*moeT/5-Me- moeC/moeAmoeA*moeT*moeA,52,63,72,85
+12,hSCN9A v1_610- LNA,610,625,exon 3,4915,TTCCCTT TGTTCAA TA,1T*1T/5-Me-1C//iMe-dc/*/iMe- dC/*T*T*T*G*T*T*/iMe- dC/*A*lAlT1A/isp18//isp18//3 CholTEG/,23,31,41,63
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA,Start,End,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,Name,Site,Site,Region,NO,(5' 'to 3'),,6 uM,2 M,0.67 uM,0.22 uM
+2,hSCN9A v1_610- MBB,610,629,exon 3,333,TGTTTTC CCTTTGT TCAATA,moeT*moeGmoeTmoeTmoeTT*/iMe- dc/*/iMe-dc/*/iMe- dc/*T*T*T*G*T*T*/5-Me- moeC/moeAmoeA*moeT*moeA/isp1 8//isp18//3CholTEG/,12,19,42,82
+3,hSCN9A v1_610- NewPS,610,629,exon 3,333,TGTTTTC CCTTTGT TCAATA,moeT*moeGmoeTmoeTmoeTT*/iMe- dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*T*/5-Me- moeC/moeAmoeAmoeTmoeA/isp18/ /isp18//3CholTEG/,10,17,25,53
+4,hSCN9A v1_610- Nogap,610,629,exon 3,333,TGTTTTC CCTTTGT TCAATA,moeT*moeGmoeT*moeTmoeT*moeT/ 5-Me-moeC/*/5-Me-moeC//5-Me- moeC/*moeTmoeT*moeTmoeG*moeT moeT*/5-Me- moeC/moeA*moeAmoeT*moeA/isp1 8//isp18//3CholTEG/,94,91,93,90
+5,hSCN9A v1_611- 5Chol,611,630,exon 3,4916,TTGTTTT CCCTTTG TTCAAT,/CholTEG//isp18//isp18/moeTm beTmoeGmoeTmoeTT*T*/iMe- dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*moeT/5-Me- moeC/moeA*moeA*moeT,54,67,82,95
+6,hSCN9A v1_611- 8gap,611,630,exon 3,4916,TTGTTTT CCCTTTG TTCAAT,moeT*moeTmoeGmoeTmoeTmoeTT*/ iMe-dC/*/iMe-dc/*/iMe- dC/*T*T*T*G*moeTmoeT/5-Me- moeC/moeAmoeAmoeT/isp18//isp 18//3CholTEG/,71,80,83,83
+7,hSCN9A v1_611- 8gap- 5Chol,611,630,exon 3,4916,TTGTTTT CCCTTTG TTCAAT,/CholTEG//isp18//isp18/moeTm beTmoeGmoeTmoeTmoeTT*/iMe- dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*moeTmoeT/5-Me- moeC/moeA*moeA*moeT,62,69,67,63
+8,hSCN9A v1_611- LNA,611,626,exon 3,4917,TTTCCCT TTGTTCA AT,1T*lTlT/iMe-dC/*/iMe- dC/*/iMe- dC/*T*T*T*G*T*T*/iMe- dC/*lAlAlT/isp18//isp18//3ch olTEG/,32,42,56,77
+9,hSCN9A v1_611- LNA- 5Chol,611,626,exon 3,4917,TTTCCCT TTGTTCA AT,/CholTEG//isp18//isp18/1T1T1 T/iMe-dC/*/iMe-dc/*/iMe- dC/*T*T*T*G*T*T*/iMe- dC/*1A*1A*1T,61,63,73,91
+10,hSCN9A v1_611- MBB,611,630,exon 3,4916,TTGTTTT CCCTTTG TTCAAT,moeT*moeTmoeGmoeTmoeTT*T*/iM e-dC/*/iMe-dc/*/iMe- dC/*T*T*T*G*T*moeT/5-Me- moeC/moeA*moeA*moeT/isp18//i Sp18//3CholTEG/,21,31,47,76
+11,hSCN9A v1_611- NewPS,611,630,exon 3,4916,TTGTTTT CCCTTTG TTCAAT,moeT*moeTmoeGmoeTmoeTT*T*/iM e-dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*moeT/5-Me- moeC/moeAmoeAmoeT/isp18//isp 18//3CholTEG/,18,34,47,76
+12,hSCN9A v1_611- Nogap,611,630,exon 3,4916,TTGTTTT CCCTTTG TTCAAT,moeT*moeTmoeG*moeTmoeT*moeTm beT*/5-Me-moeC//5-Me- moeC/*/5-Me- moeC/moeT*moeTmoeT*moeGmoeT* moeT/5-Me- moeC/*moeAmoeA*moeT/isp18//i Sp18//3CholTEG/,81,83,82,93
+13,hSCN9A v1_612- LNA,612,627,exon 3,4918,TTTTCCC TTTGTTC AA,*lTlTT*/iMe-dC/*/iMe- dC/*/iMe-dC/*T*T*T*G*T*T*/5- Me- 1C/lAlA/isp18//isp18//3CholT EG/,18,27,42,66
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression,mRNA (%untreated),
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_612- LNA- 5Chol,612,627,exon 3,4918,TTTTCCC TTTGTTC AA,/CholTEG//isp18//isp18/1TlTl TT*/iMe-dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*T*/5-Me- 1C/*1A*1A,32,38,54,83
+3,hSCN9A v1_613- LNA,613,628,exon 3,4919,GTTTTCC CTTTGTT CA,1G*lTlTT*T*/iMe-dC/*/iMe- dC/*/iMe-dC/*T*T*T*G*T*1T/5- Me- 1C/1A/isp18//isp18//3CholTEG,3,6,17,48
+4,hSCN9A v1_613- LNA- 5Chol,613,628,exon 3,4919,GTTTTCC CTTTGTT CA,/CholTEG//isp18//isp18/1GlTl TT*T*/iMe-dC/*/iMe-dC/*/iMe- dC/*T*T*T*G*T*lT*/5-Me- 1C/*1A,21,30,48,80
+5,hSCN9A v1_614- LNA,614,629,exon 3,4907,TGTTTTC CCTTTGT TC,1T*lGlTT*T*T*/iMe-dC/*/iMe- dC/*/iMe-dC/*T*T*T*G*lTlT/5- Me- 1C//isp18//isp18//3CholTEG/,5,9,18,41
+6,hSCN9A v1_615- LNA,615,630,exon 3,4920,TTGTTTT CCCTTG TT,1T*lTlGT*T*T*T*/iMe- dC/*/iMe-dC/*/iMe- dC/*T*T*T*lGlT1T/isp18//isp1 8//3CholTEG/,4,8,17,42
+7,hSCN9A v1_631- 5Chol,631,650,exon 3,4921,TGTGGCA TTGAAAC GGAAGA,/CholTEG//isp18//isp18/moeTm beGmoeTmoeGmoeG/iMe- dC/*A*T*T*G*A*A*A*/iMe- dC/*G*moeGmoeAmoeA*moeG*moeA,58,60,65,86
+8,hSCN9A v1_631- 8gap,631,650,exon 3,4921,TGTGGCA TTGAAAC GGAAGA,moeT*moeGmoeTmoeGmoeG/5-Me- moeC/A*T*T*G*A*A*A*/iMe- dC/*moeGmoeGmoeAmoeAmoeGmoeA /isp18//isp18//3CholTEG/,50,59,77,88
+9,hSCN9A v1_631- 8gap- 5Chol,631,650,exon 3,4921,TGTGGCA TTGAAAC GGAAGA,/CholTEG//isp18//isp18/moeTm beGmoeTmoeGmoeG/5-Me- moeC/A*T*T*G*A*A*A*/iMe- dC/*moeGmoeGmoeAmoeA*moeG*mo eA,71,71,79,92
+10,hSCN9A v1_631- LNA,631,646,exon 3,4922,GCATTGA AACGGAA GA,1G*/5-Me- 1C/lAT*T*G*A*A*A*/iMe- dC/*G*G*A*lAlG1A/isp18//isp1 8//3CholTEG/,61,64,94,91
+11,hSCN9A v1_631- MBB,631,650,exon 3,4921,TGTGGCA TTGAAAC GGAAGA,moeT*moeGmoeTmoeGmoeG/iMe- dC/*A*T*T*G*A*A*A*/iMe- dC/*G*moeGmoeAmoeA*moeG*moeA /isp18//isp18//3CholTEG/,26,37,48,66
+12,hSCN9A v1_631- NewPS,631,650,exon 3,4921,TGTGGCA TTGAAAC GGAAGA,moeT*moeGmoeTmoeGmoeG/iMe- dC/*A*T*T*G*A*A*A*/iMe- dc/*G*moeGmoeAmoeAmoeGmoeA/i Sp18//isp18//3CholTEG/,31,43,58,81
+13,hSCN9A v1_631- Nogap,631,650,exon 3,4921,TGTGGCA TTGAAAC GGAAGA,moeT*moeGmoeT*moeGmoeG*/5- Me- moeC/moeA*moeTmoeT*moeGmoeA* moeAmoeA*/5-Me- moeC/moeG*moeGmoeA*moeAmoeG* moeA/isp18//isp18//3CholTEG/,90,98,96,94
+14,hSCN9A v1_632- 5Chol,632,651,exon 3,344,GTGTGGC ATTGAAA CGGAAG,/CholTEG//isp18//isp18/moeGm oeTmoeGmoeTmoeGG*/iMe- dC/*A*T*T*G*A*A*A*/iMe- dC/*moeGmoeGmoeA*moe*moeG,50,52,67,86
+15,hSCN9A v1_632- 8gap,632,651,exon 3,344,GTGTGGC ATTGAAA CGGAAG,moeG*moeTmoeGmoeTmoeGmoeG/iM e-dC/*A*T*T*G*A*A*A*/5-Me- moeC/moeGmoeGmoeAmoeAmoeG/is p18//isp18//3CholTEG/,53,74,85,90
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA,Start,End,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,Name,Site,Site,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_632- 8gap- 5Chol,632,651,exon 3,344,GTGTGGC ATTGAAA CGGAAG,/CholTEG//isp18//isp18/moeGm beTmoeGmoeTmoeGmoeG/iMe- dC/*A*T*T*G*A*A*A*/5-Me- moeC/moeGmoeGmoeA*moe*moeG,67,73,79,91
+3,hSCN9A v1_632- LNA,632,647,exon 3,4923,GGCATTG AAACGGA AG,1G*1G/5-Me- 1C/A*T*T*G*A*A*A*/iMe- dC/*G*G*lalAlG/isp18//isp18/ /3CholTEG/,50,79,79,99
+4,hSCN9A v1_632- MBB,632,651,exon 3,344,GTGTGGC ATTGAAA CGGAAG,moeG*moeTmoeGmoeTmoeGG*/iMe- dC/*A*T*T*G*A*A*A*/iMe- dC/*moeGmoeGmoeA*moeA*moeG/i Sp18//isp18//3Cho1TEG/,25,35,49,73
+5,hSCN9A v1_632- NewPS,632,651,exon 3,344,GTGTGGC ATTGAAA CGGAAG,moeG*moeTmoeGmoeTmoeGG*/iMe- dC/*A*T*T*G*A*A*A*/iMe- dc/*moeGmoeGmoeAmoeAmoeG/isp 18//isp18//3CholTEG/,27,34,46,61
+6,hSCN9A v1_632- Nogap,632,651,exon 3,344,GTGTGGC ATTGAAA CGGAAG,moeG*moeTmoeG*moeTmoeG*moeG/ 5-Me- moeC/*moeAmoeT*moeTmoeG*moeA moeA*moeA/5-Me- moeC/*moeGmoeG*moeAmoeA*moeG /isp18//isp18//3CholTEG/,94,81,92,94
+7,hSCN9A v1_633- 5Chol,633,652,exon 3,4924,GGTGTGG CATTGAA ACGGAA,/CholTEG//isp18//isp18/moeGm beGmoeTmoeGmoeTG*G*/iMe- dC/*A*T*T*G*A*A*A*/5-Me- moeC/moeGmoeG*moeA*moeA,52,62,76,91
+8,hSCN9A v1_633- 8gap,633,652,exon 3,4924,GGTGTGG CATTGAA ACGGAA,moeG*moeGmoeTmoeGmoeTmoeGG*/ iMe-dC/*A*T*T*G*A*A*moeA/5- Me- moeC/moeGmoeGmoeAmoeA/isp18/ /isp18//3CholTEG/,72,90,100,103
+9,hSCN9A v1_633- 8gap- 5Chol,633,652,exon 3,4924,GGTGTGG CATTGAA ACGGAA,/CholTEG//isp18//isp18/moeGm oeGmoeTmoeGmoeTmoeGG*/iMe- dC/*A*T*T*G*A*A*moeA/5-Me- moeC/moeGmoeG*moeA*moeA,74,72,88,97
+10,hSCN9A v1_633- LNA,633,648,exon 3,4925,TGGCATT GAAACGG AA,lT*1GlG/iMe- dC/*A*T*T*G*A*A*A*/iMe- dc/*G*1GlalA/isp18//isp18//3 CholTEG/,37,39,54,92
+11,hSCN9A v1_633- LNA- 5Chol,633,648,exon 3,4925,TGGCATT GAAACGG AA,/CholTEG//isp18//isp18/1TlG1 G/iMe- dC/*A*T*T*G*A*A*A*/iMe- dC/*G*1G*lA*lA,71,79,90,101
+12,hSCN9A v1_633- MBB,633,652,exon 3,4924,GGTGTGG CATTGAA ACGGAA,moeG*moeGmoeTmoeGmoeTG*G*/iM e-dC/*A*T*I*G*A*A*A*/5-Me- moeC/moeGmoeG*moeA*moeA/ispl 8//isp18//3CholTEG/,43,66,82,91
+13,hSCN9A v1_633- NewPS,633,652,exon 3,4924,GGTGTGG CATTGAA ACGGAA,moeG*moeGmoeTmoeGmoeTG*G*/iM e-dC/*A*T*T*G*A*A*A*/5-Me- moeC/moeGmoeGmoeAmoeA/isp18/ /isp18//3CholTEG/,63,88,80,88
+14,hSCN9A v1_633- Nogap,633,652,exon 3,4924,GGTGTGG CATTGAA ACGGAA,moeG*moeGmoeT*moeGmoeT*moeGm oeG*/5-Me- moeC/moeA*moeTmoeT*moeGmoeA* moeAmoeA*/5-Me- moeC/moeG*moeGmoeA*moeA/isp1 8//isp18//3CholTEG/,89,90,94,92
+15,hSCN9A v1_634- LNA,634,649,exon 3,4926,GTGGCAT TGAAACG GA,1G*1TlGG*/iMe- dC/*A*T*T*G*A*A*A*/iMe- dc/*1G1G1A/isp18//isp18//3ch olTEG/,44,60,74,85
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 M,0.22 uM
+2,hSCN9A v1_634- LNA- 5Chol,634,649,exon 3,4926,GTGGCAT TGAAACG GA,/CholTEG//isp18//isp18/1GlTl GG*/iMe- dC/*A*T*T*G*A*A*A*/iMe- dC/*1G*1G*1A,79,80,92,100
+3,hSCN9A v1_635- LNA,635,650,exon 3,4927,TGTGGCA TTGAAAC GG,lT*lGlTG*G*/iMe- dC/*A*T*T*G*A*A*A*/5-Me- 1C/1G1G/isp18//isp18//3CholT EG/,35,48,78,89
+4,hSCN9A v1_635- LNA- 5Chol,635,650,exon 3,4927,TGTGGCA TTGAAAC GG,/CholTEG//isp18//isp18/1TlGl TG*G*/iMe- dC/*A*T*T*G*A*A*A*/5-Me- 1C/*1G*1G,75,82,86,87
+5,hSCN9A v1_636- LNA,636,651,exon 3,4928,GTGTGGC ATTGAAA CG,1G*lTlGT*G*G*/iMe- dC/*A*T*T*G*A*A*lA/5-Me- 1C/1G/isp18//isp18//3CholTEG /,38,58,72,80
+6,hSCN9A v1_637- LNA,637,652,exon 3,4929,GGTGTGG CATTGAA AC,1G*1GlTG*T*G*G*/iMe- dC/*A*T*T*G*A*lAlA/5-Me- 1C//isp18//isp18//3CholTEG/,35,38,72,78
+7,hSCN9A v1_753- 5Chol,753,772,exon 4,4930,GTCATAA ATATGCA GTTTGT,/CholTEG//isp18//isp18/moeGm oeT/5-Me- moeC/moeAmoe***A*T*G*/ iMe- dC/*A*G*moeTmoeTmoeT*moeG*mo eT,42,46,66,88
+8,hSCN9A v1_753- 8gap,753,772,exon 4,4930,GTCATAA ATATGCA GTTTGT,moeG*moeT/5-Me- moeC/moeAmoeTmoe*T*A*T*G */iMe- dC/*A*moeGmoeTmoeTmoeTmoeGmo eT/isp18//isp18//3CholTEG/,52,50,70,85
+9,hSCN9A v1_753- 8gap- 5Chol,753,772,exon 4,4930,GTCATAA ATATGCA GTTTGT,/CholTEG//isp18//isp18/moeGm oeT/5-Me- moeC/moeAmoeTmoeAA**T*A*T*G */iMe- dC/*A*moeGmoeTmoeTmoeT*moeG* moeT,43,47,55,74
+10,hSCN9A v1 753- LNA,753,768,exon 4,4931,TAAATAT GCAGTTT GT,1T*lAlAA*T*A*T*G*/iMe- dC/*A*G*T*T*lTlG1T/isp18//is p18//3CholTEG/,96,105,121,104
+11,hSCN9A v1_753- MBB,753,772,exon 4,4930,GTCATAA ATATGCA GTTTGT,moeG*moeT/5-Me- moeC/moeAmoeT*A*T*A*T*G*/ iMe- dC/*A*G*moeTmoeTmoeT*moeG*mo eT/isp18//isp18//3CholTEG/,29,28,40,47
+12,hSCN9A v1_753- NewPS,753,772,exon 4,4930,GTCATAA ATATGCA GTTTGT,moeG*moeT/5-Me- moeC/moeAmoeT*A*T*A*T*G*/ iMe- dC/*A*G*moeTmoeTmoeTmoeGmoeT /isp18//isp18//3CholTEG/,27,29,39,65
+13,hSCN9A v1_753- NOgap,753,772,exon 4,4930,GTCATAA ATATGCA GTTTGT,moeG*moeT/5-Me- moeC/*moeAmoeT*moeAmoeA*moeA moeT*moeAmoeT*moeG/5-Me- moeC/*moeAmoeG*moeTmoeT*moeT moeG*moeT/isp18//isp18//3Cho 1TEG/,81,91,79,96
+14,hSCN9A v1_754- 5Chol,754,773,exon 4,405,GGTCATA AATATGC AGTTTG,/CholTEG//isp18//isp18/moeGm beGmoeT/5-Me- e- dC/*A*moeGmoeTmoeT*moeT*moeG,10,14,23,64
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA,Start,End,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,Name,Site,Site,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_754- 8gap,754,773,exon 4,405,GGTCATA AATATGC AGTTTG,moeG*moeGmoeT/5-Me- moeC/moeAmoeT*A*T*A*T*G*/ iMe- dC/*moeAmoeGmoeTmoeTmoeTmoeG /isp18//isp18//3CholTEG/,85,87,97,96
+3,hSCN9A v1_754- 8gap- 5Chol,754,773,exon 4,405,GGTCATA AATATGC AGTTTG,/CholTEG//isp18//isp18/moeGm oeGmoeT/5-Me- iMe- lC/*moeAmoeGmoeTmoeT*moeT*mo eG,23,34,35,58
+4,hSCN9A v1_754- LNA,754,769,exon 4,4932,ATAAATA TGCAGTT TG,lA*lTlAA*A*T*A*T*G*/iMe- 8//3CholTEG/,45,53,53,60
+5,hSCN9A v1_754- MBB,754,773,exon 4,405,GGTCATA AATATGC AGTTTG,moeG*moeGmoeT/5-Me- moeC/moeAT***A*T*A*T*G*/iM e- dC/*A*moeGmoeTmoeT*moeT*moeG /isp18//isp18//3CholTEG/,4,6,11,19
+6,hSCN9A v1_754- NewPS,754,773,exon 4,405,GGTCATA AATATGC AGTTTG,moeG*moeGmoeT/5-Me- moeC/moeAT***A*T*A*T*G*/iM e- dC/*A*moeGmoeTmoeTmoeTmoeG/i Sp18//isp18//3CholTEG/,24,17,68,89
+7,hSCN9A v1_754- Nogap,754,773,exon 4,405,GGTCATA AATATGC AGTTTG,moeG*moeGmoeT*/5-Me- moeC/moeA*moeTmoeA*moeAmoeA* moeTmoeA*moeTmoeG*/5-Me- moeC/moeA*moeGmoeT*moeTmoeT* moeG/isp18//isp18//3CholTEG/,86,89,91,87
+8,hSCN9A v1_755- 5Chol,755,774,exon 4,4933,TGGTCAT AAATATG CAGTTT,CholTEG//isp18//isp18/moeTm beGmoeGmoeT/5-Me- moeC/A*T*A*A*A*T*A*T*G*/iMe- dC/*moeAmoeGmoeT*moeT*moeT,36,42,55,76
+9,hSCN9A v1_755- 8gap,755,774,exon 4,4933,TGGTCAT AAATATG CAGTTT,moeT*moeGmoeGmoeT/5-Me- moeC/moeAT****T*A*T*G*/5- Me- moeC/moeAmoeGmoeTmoeTmoeT/is p18//isp18//3CholTEG/,24,27,34,39
+10,hSCN9A v1_755- 8gap- 5Chol,755,774,exon 4,4933,TGGTCAT AAATATG CAGTTT,CholTEG//isp18//isp18/moeTm beGmoeGmoeT/5-Me- moeC/moeAT****T*A*T*G*/5- Me- moeC/moeAmoeGmoeT*moeT*moeT,60,78,89,94
+11,hSCN9A v1_755- LNA,755,770,exon 4,4934,CATAAAT ATGCAGT TT,/5-Me- 1C/*lAlTA*A*A*T*A*T*G*/iMe- dC/*A*G*1TlT1T/isp18//isp18/ /3CholTEG/,40,50,64,85
+12,hSCN9A v1_755- LNA- 5Chol,755,770,exon 4,4934,CATAAAT ATGCAGT TT,/CholTEG//isp18//isp18//5- Me- 1C/lAlTA**A*T*A*T*G*/iMe- dC/*A*G*lT*lT*lT,65,71,81,88
+13,hSCN9A v1_755- MBB,755,774,exon 4,4933,TGGTCAT AAATATG CAGTTT,moeT*moeGmoeGmoeT/5-Me- moeC/A*T*A*A*A*T*A*T*G*/iMe- dC/*moeAmoeGmoeT*moeT*moeT/i Sp18//isp18//3CholTEG/,8,13,21,49
+14,hSCN9A v1_755- NewPS,755,774,exon 4,4933,TGGTCAT AAATATG CAGTTT,moeT*moeGmoeGmoeT/5-Me- moeC/A*T*A*A*A*T*A*I*G*/iMe- dC/*moeAmoeGmoeTmoeTmoeT/isp 18//isp18//3CholTEG/,15,18,27,43
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 M,0.22 uM
+2,hSCN9A v1_755- Nogap,755,774,exon 4,4933,TGGTCAT AAATATG CAGTTT,moeT*moeGmoeG*moeT/5-Me- moeC/*moeAmoeT*moeAmoeA*moeA moeT*moeAmoeT*moeG/5-Me- moeC/*moeAmoeG*moeTmoeT*moeT iSp18//isp18//3CholTEG/,86,88,85,87
+3,hSCN9A v1_756- LNA,756,771,exon 4,4935,TCATAAA TATGCAG TT,1T*/5-Me- 1C/lAT*A**A*T*A*T*G*/iMe- dC/*A*1GlTlT/isp18//isp18//3 CholTEG/,40,49,65,75
+4,hSCN9A v1_756- LNA- 5Chol,756,771,exon 4,4935,TCATAAA TATGCAG TT,/CholTEG//isp18//isp18/1T/5- Me- 1C/lAT*A*A*A*T*A*T*G*/iMe- dC/*A*1G*lT*lT,64,70,76,84
+5,hSCN9A v1_757- LNA,757,772,exon 4,4936,GTCATAA ATATGCA GT,1G*1T/5-Me- 1C/A*T*A*A*A*T*A*T*G*/iMe- dC/*lalGlT/isp18//isp18//3ch olTEG/,7,10,16,32
+6,hSCN9A v1_757- LNA- 5Chol,757,772,exon 4,4936,GTCATAA ATATGCA GT,/CholTEG//isp18//isp18/1G1T/ 5-Me- 1C/A*T*A*A*A*T*A*T*G*/iMe- dC/*1A*1G*IT,31,33,40,57
+7,hSCN9A v1_758- LNA,758,773,exon 4,4937,GGTCATA AATATGC AG,1G*1G1T/iMe- dC/*A*T*A*A*A*T*A*T*G*/5-Me- 1C/lalG/isp18//isp18//3CholT EG/,10,19,41,79
+8,hSCN9A v1_759- LNA,759,774,exon 4,4938,TGGTCAT AAATATG CA,1T*lGlGT*/iMe- dC/*A*T*A*A*A*T*A*T*1G/5-Me- 1C/1A/isp18//isp18//3CholTEG /,44,47,65,88.0
+9,hSCN9A v1_1149 -5Chol,1149,1168,exon 7,4939,AAACATT TATGCTT CAGGTT,/CholTEG//isp18//isp18/moeAm oeAmoeA/5-Me- moeC/moeAT*I*T*A*T*G*/iMe- dC/*T*T*/iMe- dC/*moeAmoeGmoeG*moeT*moeT,58,64,78,96
+10,hSCN9A v1_1149 -8gap,1149,1168,exon 7,4939,AAACATT TATGCTT CAGGTT,moeA*moeAmoeA/5-Me- moeC/moeAmoeTT*T*A*T*G*/iMe dC/*T*T*/5-Me- moeC/moeAmoeGmoeGmoeTmoeT/is p18//isp18//3CholTEG/,34,47,59,76
+11,hSCN9A v1_1149 -8gap- 5Chol,1149,1168,exon 7,4939,AAACATT TATGCTT CAGGTT,/CholTEG//isp18//isp18/moeAm oeAmoeA/5-Me- moeC/moeAmoeTT*T*A*T*G*/iMe- dC/*T*T*/5-Me- moeC/moeAmoeGmoeG*moeT*moeT,56,61,75,84
+12,hSCN9A v1_1149 -LNA,1149,1164,exon 7,4940,ATTTATG CTTCAGG TT,lA*lTlTT*A*T*G*/iMe- dC/*T*T*/iMe- dC/*A*G*1GlTlT/isp18//isp18/ /3CholTEG/,26,34,46,70
+13,hSCN9A v1_1149 -MBB,1149,1168,exon 7,4939,AAACATT TATGCTT CAGGTT,moeA*moeAmoeA/5-Me- moeC/moeAT*T*T*A*T*G*/iMe- dC/*T*T*/iMe- dC/*moeAmoeGmoeG*moeT*moeT/i Sp18//isp18//3CholTEG/,36,49,62,83
+14,hSCN9A v1_1149 -NewPS,1149,1168,exon 7,4939,AAACATT TATGCTT CAGGTT,moeA*moeAmoeA/5-Me- moeC/moeAT*T*T*A*T*G*/iMe- dC/*T*T*/iMe- C/*moeAmoeGmoeGmoeTmoeT/isp 18//isp18//3CholTEG/,40,55,70,91
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA,Start,End,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,Name,Site,Site,Region,NO,(5' to 3'),,6 uM,2 M,0.67 uM,0.22 uM
+2,hSCN9A v1_1149 -Nogap,1149,1168,exon 7,4939,AAACATT TATGCTT CAGGTT,moeA*moeAmoeA*/5-Me- moeC/moeA*moeTmoeT*moeTmoeA* moeTmoeG*/5-Me- moeC/moeT*moeT/5-Me- moeC/*moeAmoeG*moeGmoeT*moeT isp18//isp18//3CholTEG/,100,93,95,95
+3,hSCN9A v1_1150 -5Chol,1150,1169,exon 7,603,AAAACAT TTATGCT TCAGGT,/CholTEG//isp18//isp18/moeAm beAmoeAmoeA/5-Me- moeC/A*T*T*T*A*I*G*/iMe- dC/*T*T*/5-Me- moeC/moeAmoeG*moeG*moeT,31,40,61,86
+4,hSCN9A v1_1150 -8gap,1150,1169,exon 7,603,AAAACAT TTATGCT TCAGGT,moeA*moeAmoeAmoeA/5-Me- moeC/moeAT*T*T*A*T*G*/iMe- dC/*T*moeT/5-Me- moeC/moeAmoeGmoeGmoeT/isp18/ /isp18//3CholTEG/,25,39,53,77
+5,hSCN9A v1_1150 -8gap- 5Chol,1150,1169,exon 7,603,AAAACAT TTATGCT TCAGGT,/CholTEG//isp18//isp18/moeAm beAmoeAmoeA/5-Me- moeC/moeAT*T*T*A*T*G*/iMe- dC/*T*moeT/5-Me- moeC/moeAmoeG*moeG*moeT,38,40,50,72
+6,hSCN9A v1_1150 -LNA,1150,1165,exon 7,4941,CATTTAT GCTTCAG GT,/5-Me- 1C/*lAlTT*T*A*T*G*/iMe- dC/*T*T*/iMe- dC/*A*lG1GlT/isp18//isp18//3 CholTEG/,19,26,37,55
+7,hSCN9A v1_1150 -MBB,1150,1169,exon 7,603,AAAACAT TTATGCT TCAGGT,moeA*moeAmoeAmoeA/5-Me- moeC/A*T*T*T*A*T*G*/iMe- dC/*T*T*/5-Me- moeC/moeAmoeG*moeG*moeT/ispl 8//isp18//3CholTEG/,11,17,28,50
+8,hSCN9A v1_1150 -NewPS,1150,1169,exon 7,603,AAAACAT TTATGCT TCAGGT,moeA*moeAmoeAmoeA/5-Me- moeC/A*T*T*T*A*T*G*/iMe- dC/*T*T*/5-Me- moeC/moeAmoeGmoeGmoeT/isp18/ /isp18//3CholTEG/,15,23,36,60
+9,hSCN9A v1_1150 -Nogap,1150,1169,exon 7,603,AAAACAT TTATGCT TCAGGT,moeA*moeAmoeA*moeA/5-Me- moeC/*moeAmoeT*moeTmoeT*moeA moeT*moeG/5-Me- moeC/*moeTmoeT*/5-Me- moeC/moeA*moeGmoeG*moeT/isp1 8//isp18//3CholTEG/,95,98,100,101
+10,hSCN9A v1_1151 -5Chol,1151,1170,exon 7,4942,GAAAACA TTTATGC TTCAGG,/CholTEG//isp18//isp18/moeGm beAmoeAmoeAmoeA/iMe- dC/*A*T*T*T*A*T*G*/iMe- dC/*T*moeT/5-Me- moeC/moeA*moeG*moeG,23,42,64,90
+11,hSCN9A v1_1151 -8gap,1151,1170,exon 7,4942,GAAAACA TTTATGC TTCAGG,moeG*moeAmoeAmoeAmoeA/5-Me- moeC/A*T*T*T*A*T*G*/iMe- dC/*moeTmoeT/5-Me- moeC/moeAmoeGmoeG/isp18//isp 18//3CholTEG/,36,44,60,69
+12,hSCN9A v1_1151 -8gap- 5Chol,1151,1170,exon 7,4942,GAAAACA TTTATGC TTCAGG,/CholTEG//isp18//isp18/moeGm beAmoeAmoeAmoeA/5-Me- moeC/A*T*T*T*A*T*G*/iMe- dC/*moeTmoeT/5-Me- moeC/moeA*moeG*moeG,39,43,57,81
+13,hSCN9A v1_1151 -LNA,1151,1166,exon 7,4910,ACATTTA TGCTTCA GG,1A*/5-Me- 1C/lAT*T*T*A*T*G*/iMe dC/*T*T*/iMe- dC/*lalG1G/isp18//isp18//3Ch olTEG/,2,4,8,22
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_1151 -LNA- 5Chol,1151,1166,exon 7,4910,ACATTTA TGCTTCA GG,/CholTEG//isp18//isp18/1A/5- Me-1C/lAT*T*T*A*T*G*/iMe- dC/*T*T*/iMe-dC/*lA*lG*1G,28,33,41,62
+3,hSCN9A v1_1151 -MBB,1151,1170,exon 7,4942,GAAAACA TTTATGC TTCAGG,moeG*moeAmoeAmoeAmoeA/iMe- dC/*A*T*T*T*A*T*G*/iMe- d/*T*moeT/5-Me- moeC/moeA*moeG*moeG/isp18//i Sp18//3CholTEG/,8,13,25,51
+4,hSCN9A v1_1151 -NewPS,1151,1170,exon 7,4942,GAAAACA TTTATGC TTCAGG,moeG*moeAmoeAmoeAmoeA/iMe- dC/*A*T*T*T*A*T*G*/iMe- dC/*T*moeT/5-Me- moeC/moeAmoeGmoeG/isp18//isp 18//3CholTEG/,16,22,35,58
+5,hSCN9A v1_1151 -Nogap,1151,1170,exon 7,4942,GAAAACA TTTATGC TTCAGG,moeG*moeAmoeA*moeAmoeA*/5- Me-moeC/moeA*moeTmoeT*moeT moeA*moeTmoeG*/5-Me-moeC/ moeT*moeT/5-Me-moeC/*moeA moeG*moeG/isp18//isp18//3Cho 1TEG/,103,104,105,109
+6,hSCN9A v1_1152 -LNA,1152,1167,exon 7,4943,AACATTT ATGCTTC AG,1A*1A/5-Me- 1C/A*T*T*T*A*T*G*/iMe- dC/*T*T*/5-Me- 1C/lalG/isp18//isp18//3CholT EG/,13,18,28,46
+7,hSCN9A v1_1152 -LNA- 5Chol,1152,1167,exon 7,4943,AACATTT ATGCTTC AG,/CholTEG//isp18//isp18/lAlA/ 5-Me-1C/A*T*T*T*A*T*G*/iMe- dC/*T*T*/5-Me-1C/*lA*lG,56,60,70,85
+8,hSCN9A v1_1153 -LNA,1153,1168,exon 7,4944,AAACATT TATGCTT CA,lA*lAlA/iMe-dC/*A*T*T*T*A*T* G*/iMe-dc/*T*1T/5-Me-1C/lA /isp18//isp18//3CholTEG/,40,48,63,76
+9,hSCN9A v1_1153 -LNA- 5Chol,1153,1168,exon 7,4944,AAACATT TATGCTT CA,/CholTEG//isp18//isp18/lAlA lA/iMe-dC/*A*T*T*T*A*T*G* /iMe-dC/*T*lT*/5-Me-1C/*lA,83,78,82,87
+10,hSCN9A v1_1154 -LNA,1154,1169,exon 7,4945,AAAACAT TTATGCT TC,lA*lAlAA*/iMe-dC/*A*T*T* T*A*T*G*/iMe-dC/*1TlT/5-Me- 1C//isp18//isp18//3CholTEG/,79,87,89,96
+11,hSCN9A v1_1155 -LNA,1155,1170,exon 7,4946,GAAAACA TTTATGC TT,1G*lAlAA*A*/iMe-dC/*A*T*T* I*A*T*G*/5-Me-1C/lTlT /isp18//isp18//3CholTEG/,72,78,81,95
+12,hSCN9A v1_1197 -5Chol,1197,1216,exon 7,4947,GTATTCA TTATGCT TTCTAA,/CholTEG//isp18//isp18/moeG moeTmoeAmoeTmoeT/iMe-dC/*A* T*T*A*T*G*/iMe-dC/*T*T*moeT /5-Me-moeC/moeT*moe*moeA,28,35,50,78
+13,hSCN9A v1_1197 -8gap,1197,1216,exon 7,4947,GTATTCA TTATGCT TTCTAA,moeG*moeTmoeAmoeTmoeT/5-Me- moeC/A*T*T*A*T*G*/iMe-dC/* T*moeTmoeT/5-Me-moeC/moeT moeAmoeA/isp18//isp18//3Chol TEG/,17,20,36,55
+14,hSCN9A v1_1197 -8gap- 5Chol,1197,1216,exon 7,4947,GTATTCA TTATGCT TTCTAA,/CholTEG//isp18//isp18/moeG moeTmoeAmoeTmoeT/5-Me-moeC/ A*T*T*A*T*G*/iMe-dC/*T*moeT moeT/5-Me-moeC/moeT*moeA* moeA,38,41,55,79
+15,hSCN9A v1_1197 -LNA,1197,1212,exon 7,4948,TCATTAT GCTTTCT AA,1T*/5-Me-1C/lAT*T*A*T*G* /iMe-dC/*T*T*T*/iMe-dC/* 1T1AlA/isp18//isp18//3CholTE G/,4,7,14,35
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A,mRNA expression (%untreated),
+1,,,,Region,NO,(5' 'to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_1197 -MBB,1197,1216,exon 7,4947,GTATTCA TTATGCT TTCTAA,moeG*moeTmoeAmoeTmoeT/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*T*T*moeT/5-Me- moeC/moeT*moeA*moeA/isp18//i Sp18//3CholTEG/,13,19,34,63
+3,hSCN9A v1_1197 -NewPS,1197,1216,exon 7,4947,GTATTCA TTATGCT TTCTAA,moeG*moeTmoeAmoeTmoeT/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*T*T*moeT/5-Me- moeC/moeTmoeAmoeA/isp18//isp 18//3CholTEG/,14,21,35,58
+4,hSCN9A v1_1197 -Nogap,1197,1216,exon 7,4947,GTATTCA TTATGCT TTCTAA,moeG*moeTmoeA*moeTmoeT*/5- Me- moeC/moeA*moeTmoeT*moeAmoeT* moeG/5-Me- moeC/*moeTmoeT*moeT/5-Me- moeC/*moeTmoeA*moeA/isp18//i Sp18//3CholTEG/,83,71,75,74
+5,hSCN9A v1_1198 -5Chol,1198,1217,exon 7,627,GGTATTC ATTATGC TTTCTA,/CholTEG//isp18//isp18/moeGm beGmoeTmoeAmoeTT*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*T*moeTmoeT/5-Me- moeC/*moeT*moeA,18,24,41,76
+6,hSCN9A v1_1198 -8gap,1198,1217,exon 7,627,GGTATTC ATTATGC TTTCTA,moeG*moeGmoeTmoeAmoeTmoeT/iM e-dC/*A*T*T*A*T*G*/iMe- dC/*moeTmoeTmoeT/5-Me- moeC/moeTmoeA/isp18//isp18// 3CholTEG/,10,13,24,46
+7,hSCN9A v1_1198 -8gap- 5Chol,1198,1217,exon 7,627,GGTATTC ATTATGC TTTCTA,/CholTEG//isp18//isp18/moeGm leGmoeTmoeAmoeTmoeT/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*moeTmoeTmoeT/5-Me- moeC/*moeT*moeA,33,38,45,73
+8,hSCN9A v1_1198 -LNA,1198,1213,exon 7,4905,TTCATTA TGCTTTC TA,IT*IT/5-Me- 1C/A*T*T*A*T*G*/iMe- dC/*T*T*T*/5-Me- 1C/1TlA/isp18//isp18//3CholT EG/,2,4,11,35
+9,hSCN9A v1_1198 -MBB,1198,1217,exon 7,627,GGTATTC ATTATGC TTTCTA,moeG*moeGmoeTmoeAmoeTT*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*T*moeTmoeT/5-Me- moeC/*moeT*moeA/isp18//isp18 //3CholTEG/,4,7,14,38
+10,hSCN9A v1_1198 -NewPS,1198,1217,exon 7,627,GGTATTC ATTATGC TTTCTA,moeG*moeGmoeTmoeAmoeTT*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*T*moeTmoeT/5-Me- moeC/moeTmoeA/isp18//isp18// 3CholTEG/,4,7,14,38
+11,hSCN9A v1_1198 -Nogap,1198,1217,exon 7,627,GGTATTC ATTATGC TTTCTA,moeG*moeGmoeT*moeAmoeT*moeT/ 5-Me- moeC/*moeAmoeT*moeTmoeA*moeT moeG*/5-Me- moeC/moeT*moeTmoeT*/5-Me- moeC/moeT*moeA/isp18//isp18/ /3CholTEG/,85,88,84,90
+12,hSCN9A v1_1199 -5Chol,1199,1218,exon 7,4949,GGGTATT CATTATG CTTTCT,/CholTEG//isp18//isp18/moeG/ 7deazaOMG/moeGmoeTmoeAT*T*/i Me-dC/*A*T*T*A*T*G*/iMe- dC/*moeTmoeTmoeT*/5-Me- moeC/*moeT,19,24,33,67
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 M,2 M,0.67 M,0.22 M
+2,hSCN9A v1_1199 -8gap,1199,1218,exon 7,4949,GGGTATT CATTATG CTTTCT,moeG*/7deazaOMG/moeGmoeTmoeA moeTT*/iMe- dC/*A*T*T*A*T*G*/5-Me- moeC/moeTmoeTmoeT/5-Me- moeC/moeT/isp18//isp18//3Cho 1TEG/,33,42,58,87
+3,hSCN9A v1_1199 -8gap- 5Chol,1199,1218,exon 7,4949,GGGTATT CATTATG CTTTCT,/CholTEG//isp18//isp18/moeG/ 7deazaOMG/moeGmoeTmoeAmoeTT* /iMe-dC/*A*T*T*A*T*G*/5-Me- moeC/moeTmoeTmoeT*/5-Me- moeC/*moeT,63,66,79,99
+4,hSCN9A v1_1199 -LNA,1199,1214,exon 7,4950,ATTCATT ATGCTTT CT,1A*1T1T/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*T*T*lT/5-Me- 1C/1T/isp18//isp18//3CholTEG /,3,6,12,29
+5,hSCN9A v1_1199 -LNA- 5Chol,1199,1214,exon 7,4950,ATTCATT ATGCTTT CT,/CholTEG//isp18//isp18/lalTl T/iMe-dC/*A*T*T*A*T*G*/iMe- dC/*T*T*lT*/5-Me-1C/*1T,26,29,35,53
+6,hSCN9A v1_1199 -MBB,1199,1218,exon 7,4949,GGGTATT CATTATG CTTTCT,noeG*/7deazaOMG/moeGmoeTmoeA T*T*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*moeTmoeTmoeT*/5-Me- moeC/*moeT/isp18//isp18//3Ch olTEG/,11,20,39,70
+7,hSCN9A v1_1199 -NewPS,1199,1218,exon 7,4949,GGGTATT CATTATG CTTTCT,moeG*/7deazaOMG/moeGmoeTmoeA T*T*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*moeTmoeTmoeT/5-Me- moeC/moeT/isp18//isp18//3Cho 1TEG/,14,23,44,75
+8,hSCN9A v1_1199 -Nogap,1199,1218,exon 7,4949,GGGTATT CATTATG CTTTCT,moeG*/7deazaOMG/moeG*moeTmoe A*moeTmoeT*/5-Me- moeC/moeA*moeTmoeT*moeAmoeT* moeG/5-Me- moeC/*moeTmoeT*moeT/5-Me- moeC/*moeT/isp18//isp18//3ch olTEG/,100,96,101,102
+9,hSCN9A v1_1200 -LNA,1200,1215,exon 7,4951,TATTCAT TATGCTT TC,lT*lAlTT*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*T*lTlT/5-Me- 1C//isp18//isp18//3CholTEG/,19,28,44,74
+10,hSCN9A v1_1200 -LNA- 5Chol,1200,1215,exon 7,4951,TATTCAT TATGCTT TC,/CholTEG//isp18//isp18/lTlAl TT*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*T*lT*lT*/5-Me-1C/,51,53,64,80
+11,hSCN9A v1_1201 -LNA,1201,1216,exon 7,4952,GTATTCA TTATGCT TT,1G*lTlAT*T*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*1T1T1T/isp18//isp18//3ch olTEG/,6,9,16,36
+12,hSCN9A v1_1201 -LNA- 5Chol,1201,1216,exon 7,4952,GTATTCA TTATGCT TT,/CholTEG//isp18//isp18/1GlTl AT*T*/iMe- dC/*A*T*T*A*T*G*/iMe- dC/*1T*1T*1T,48,50,55,70
+13,hSCN9A v1_1202 -LNA,1202,1217,exon 7,4953,GGTATTC ATTATGO TT,1G*1GlTA*T*T*/iMe- dC/*A*T*T*A*T*G*/5-Me- 1C/1T1T/isp18//isp18//3chol EG/,35,46,61,81
+14,hSCN9A v1_1203 -LNA,1203,1218,exon 7,4954,GGGTATT CATTATG CT,1G*/7deazaOMG/1GT*A*T*T*/iMe -dC/*A*T*T*A*T*1G/5-Me- 1C/1T/isp18//isp18//3CholTEG /,21,31,54,85
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A,mRNA expression (%untreated),
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1 2499 -5Chol,2499,2518,exon 14,4955,ATACACT TTTTGAA TTTTAT,/CholTEG//isp18//isp18/moeAm beTmoeA/5-Me-moeC/moeA/iMe- dC/*T*T*T*I*T*G*A*A*T*moeTmo eTmoeT*moe*moeT,72,78,86,100
+3,hSCN9A v1_2499 -8gap,2499,2518,exon 14,4955,ATACACT TTTTGAA TTTTAT,moeA*moeTmoeA/5-Me- moeC/moeA/5-Me- moeC/T*T*T*T*T*G*A*A*moeTmoe TmoeTmoeTmoeAmoeT/isp18//isp 18//3CholTEG/,41,46,63,84
+4,hSCN9A v1_2499 -8gap- 5Chol,2499,2518,exon 14,4955,ATACACT TTTTGAA TTTTAT,/CholTEG//isp18//isp18/moeAm oeTmoeA/5-Me-moeC/moeA/5-Me- moeC/T*T*T*T*T*G*A*A*moeTmoe TmoeTmoeT*moe*moeT,69,81,84,96
+5,hSCN9A v1_2499 -LNA,2499,2514,exon 14,4956,ACTTTTT GAATTTT AT,1A*/5-Me- C/1TT*T*T*T*G*A*A*T*T*T*lTl AlT/isp18//isp18//3CholTEG/,63,64,70,72
+6,hSCN9A v1_2499 -MBB,2499,2518,exon 14,4955,ATACACT TTTTGAA TTTTAT,moeA*moeTmoeA/5-Me- moeC/moeA/iMe- dC/*T*T*T*T*T*G*A*A*T*moeTmo eTmoeT*moeA*moeT/isp18//ispl 8//3CholTEG/,62,75,84,91
+7,hSCN9A v1_2499 -NewPS,2499,2518,exon 14,4955,ATACACT TTTTGAA TTTTAT,moeA*moeTmoeA/5-Me- moeC/moeA/iMe- dC/*T*T*T*T*T*G*A*A*T*moeTmo eTmoeTmoeAmoeT/isp18//isp18/ /3CholTEG/,53,58,70,83
+8,hSCN9A v1_2499 -Nogap,2499,2518,exon 14,4955,ATACACT TTTTGAA TTTTAT,moeA*moeTmoeA*/5-Me- moeC/moeA*/5-Me- moeC/moeT*moeTmoeT*moeTmoeT* noeGmoeA*moeAmoeT*moeTmoeT*m oeTmoeA*moeT/isp18//isp18//3 CholTEG/,75,90,100,120
+9,hSCN9A v1_2500 -5Chol,2500,2519,exon 14,1278,GATACAC TTTTTGA ATTTTA,/CholTEG//isp18//isp18/moeGm oeAmoeTmoeA/5-Me- moeC/A*/iMe- dC/*T*T*T*T*T*G*A*A*moeTmoeT moeT*moeT*moeA,37,43,56,84
+10,hSCN9A v1_2500 -8gap,2500,2519,exon 14,1278,GATACAC TTTTTGA ATTTTA,moeG*moeAmoeTmoeA/5-Me- moeC/moeA/iMe- dC/*T*T*T*T*T*G*A*moeAmoeTmo eTmoeTmoeTmoeA/isp18//isp18/ /3CholTEG/,15,21,34,62
+11,hSCN9A v1_2500 -8gap- 5Chol,2500,2519,exon 14,1278,GATACAC TTTTTGA ATTTTA,/CholTEG//isp18//isp18/moeGm beAmoeTmoeA/5-Me- moeC/moeA/iMe- dC/*T*T*T*T*T*G*A*moeAmoeTmo eTmoeT*moeT*moeA,43,47,56,85
+12,hSCN9A v1_2500 -LNA,2500,2515,exon 14,4957,CACTTTT TGAATTT TA,/5-Me-1C/*1A/5-Me- 1C/T*T*T*T*T*G*A*A*T*T*lTlTl A/isp18//isp18//3cholTEG/,36,44,53,59
+13,hSCN9A v1_2500 -MBB,2500,2519,exon 14,1278,GATACAC TTTTTGA ATTTTA,moeG*moeAmoeTmoeA/5-Me- moeC/A*/iMe- dC/*T*I*T*T*T*G*A*A*moeTmoeT moeT*moeT*moeA/isp18//isp18/ /3CholTEG/,11,16,31,58
+14,hSCN9A v1_2500 -NewPS,2500,2519,exon 14,1278,GATACAC TTTTTGA ATTTTA,moeG*moeAmoeTmoeA/5-Me- moeC/A*/iMe- dC/*T*T*T*T*T*G*A*A*moeTmoeT moeTmoeTmoeA/isp18//isp18//3 CholTEG/,15,24,44,82
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA,Start,End,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,Name,Site,Site,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_2500 -Nogap,2500,2519,exon 14,1278,GATACAC TTTTTGA ATTTTA,moeG*moeAmoeT*moeA/5-Me- moeC/*moeA/5-Me- moeC/*moeTmoeT*moeTmoeT*moeT moeG*moeAmoeA*moeTmoeT*moeTm beT*moeA/isp18//isp18//3Chol TEG/,61,74,95,111
+3,hSCN9A v1_2501 -5Chol,2501,2520,exon 14,4958,AGATACA CTTTTG AATTTT,/CholTEG//isp18//isp18/moeAm oeGmoeAmoeTmoeA/iMe- dC/*A*/iMe- dC/*T*T*T*T*T*G*A*moeAmoeTmo eT*moeT*moeT,47,59,79,90
+4,hSCN9A v1_2501 -8gap,2501,2520,exon 14,4958,AGATACA CTTTTG AATTTT,moeA*moeGmoeAmoeTmoeA/5-Me- moeC/A*/iMe- dC/*T*T*T*T*T*G*moeAmoeAmoeT moeTmoeTmoeT/isp18//isp18//3 CholTEG/,67,70,78,93
+5,hSCN9A v1_2501 -8gap- 5Chol,2501,2520,exon 14,4958,AGATACA CTTTTG AATTTT,/CholTEG//isp18//isp18/moeAm beGmoeAmoeTmoeA/5-Me- moeC/A*/iMe- dC/*T*T*T*T*T*G*moeAmoeAmoeT moeT*moeT*moeT,87,90,94,102
+6,hSCN9A v1_2501 -LNA,2501,2516,exon 14,4908,ACACTTT TTGAATT TT,LA*/5-Me-1C/lA/iMe- /isp18//isp18//3CholTEG/,8,12,21,44
+7,hSCN9A v1_2501 -LNA- 5Chol,2501,2516,exon 14,4908,ACACTTT TTGAATT TT,/CholTEG//isp18//isp18/1A/5- Me-1C/lA/iMe- dC/*T*T*T*T*T*G*A*A*T*lT*lT* lT,67,66,70,76
+8,hSCN9A v1_2501 -MBB,2501,2520,exon 14,4958,AGATACA CTTTTG AATTTT,moeA*moeGmoeAmoeTmoeA/iMe- dC/*A*/iMe- dC/*T*T*T*T*T*G*A*moeAmoeTmo eT*moeT*moeT/isp18//isp18//3 CholTEG/,16,25,42,76
+9,hSCN9A v1_2501 -NewPS,2501,2520,exon 14,4958,AGATACA CTTTTG AATTTT,moeA*moeGmoeAmoeTmoeA/iMe- dC/*A*/iMe- dC/*T*T*T*T*T*G*A*moeAmoeTmo eTmoeTmoeT/isp18//isp18//3Ch olTEG/,17,26,44,74
+10,hSCN9A v1_2501 -Nogap,2501,2520,exon 14,4958,AGATACA CTTTTG AATTTT,moeA*moeGmoeA*moeTmoeA*/5- Me-moeC/moeA*/5-Me- moeC/moeT*moeTmoeT*moeTmoeT* moeGmoeA*moeAmoeT*moeTmoeT*n beT/isp18//isp18//3CholTEG/,96,93,96,98
+11,hSCN9A v1_2502 -LNA,2502,2517,exon 14,4959,TACACTT TTTGAAT TT,1T*lA/5-Me-1C/A*/iMe- Sp18//isp18//3CholTEG/,28,40,57,83
+12,hSCN9A v1_2502 -LNA- 5Chol,2502,2517,exon 14,4959,TACACTT TTTGAAT TT,/CholTEG//isp18//isp18/lTlA/ 5-Me-1C/A*/iMe-,75,73,68,77
+13,hSCN9A v1_2503 -LNA,2503,2518,exon 14,4960,ATACACT TTTTGAA TT,A*lTlA/iMe-dC/*A*/iMe- dc/*T*T*T*T*T*G*A*lAlTlT/isp 18//isp18//3CholTEG/,54,64,80,91
+14,hSCN9A v1_2503 -LNA- 5Chol,2503,2518,exon 14,4960,ATACACT TTTTGAA TT,/CholTEG//isp18//isp18/lalTl A/iMe-dC/*A*/iMe- dC/*T*T*T*T*T*G*A*lA*lT*lT,94,97,96,93
+15,hSCN9A v1_2504 -LNA,2504,2519,exon 14,4961,GATACAC TTTTTGA AT,LG*lAlTA*/iMe-dC/*A*/iMe- dC/*T*T*T*T*T*G*lAlalT/isp18 //isp18//3CholTEG/,40,45,52,70
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 M,0.22 uM
+2,hSCN9A v1_2505 -LNA,2505,2520,exon 14,4962,AGATACA CTTTTG AA,lA*1GlAT*A*/iMe-dC/*A*/iMe- dC/*T*T*T*T*T*lGlalA/isp18// isp18//3CholTEG/,24,33,46,67
+3,hSCN9A v1_2591 -5Chol,2591,2610,exon 14,4963,TTGGGTG GTGTTCC ATAGCC,/CholTEG//isp18//isp18/moeTm beTmoeG/7deazaOMG/moeGT*G*G* T*G*T*T*/iMe-dC/*/iMe- dC/*A*moeTmoeAmoeG*/5-Me- moeC/*/5-Me-moeC/,56,64,73,90
+4,hSCN9A v1_2591 -8gap,2591,2610,exon 14,4963,TTGGGTG GTGTTCC ATAGCC,moeT*moeTmoeG/7deazaOMG/moeG moeTG*G*T*G*T*T*/iMe- dC/*/iMe- dC/*moeAmoeTmoeAmoeG/5-Me- moeC//5-Me- moeC//isp18//isp18//3CholTEG /,58,68,81,90
+5,hSCN9A v1_2591 -8gap- 5Chol,2591,2610,exon 14,4963,TTGGGTG GTGTTCC ATAGCC,/CholTEG//isp18//isp18/moeTm beTmoeG/7deazaOMG/moeGmoeTG* G*T*G*T*T*/iMe-d/*/iMe- dC/*moeAmoeTmoeAmoeG*/5-Me- moeC/*/5-Me-moeC/,84,87,87,93
+6,hSCN9A v1_2591 -LNA,2591,2606,exon 14,4964,GTGGTGT TCCATAG CC,1G*1TlGG*T*G*T*T*/iMe- dC/*/iMe-dC/*A*T*A*lG/5-Me- 1C//5-Me- 1C//isp18//isp18//3CholTEG/,19,30,46,65
+7,hSCN9A v1_2591 -MBB,2591,2610,exon 14,4963,TTGGGTG GTGTTCC ATAGCC,hoeT*moeTmoeG/7deazaOMG/moeG T*G*G*T*G*T*T*/iMe-dC/*/iMe- dC/*A*moeTmoeAmoeG*/5-Me- moeC/*/5-Me- moeC//isp18//isp18//3CholTEG /,15,21,35,60
+8,hSCN9A v1_2591 -NewPS,2591,2610,exon 14,4963,TTGGGTG GTGTTCC ATAGCC,moeT*moeTmoeG/7deazaOMG/moeG T*G*G*T*G*T*T*/iMe-dC/*/iMe- dC/*A*moeTmoeAmoeG/5-Me- moeC//5-Me- moeC//isp18//isp18//3CholTEG /,20,32,52,77
+9,hSCN9A v1_2591 -Nogap,2591,2610,exon 14,4963,TTGGGTG GTGTTCC ATAGCC,moeT*moeTmoeG*/7deazaOMG/moe G*moeTmoeG*moeGmoeT*moeGmoeT *moeT/5-Me-moeC/*/5-Me- moeC/moeA*moeTmoe*moeG/5- Me-moeC/*/5-Me- moeC//isp18//isp18//3CholTEG /,97,93,89,92
+10,hSCN9A v1_2592 -5Chol,2592,2611,exon 14,1324,ATTGGGT GGTGTTC CATAGC,/CholTEG//isp18//isp18/moeAm beTmoeTmoeG/7deazaOMG/G*T*G* G*T*G*T*T*/iMe-dC/*/iMe- dC/*moeAmoeTmoeA*moeG*/5-Me- moeC/,39,45,64,86
+11,hSCN9A v1_2592 -8gap,2592,2611,exon 14,1324,ATTGGGT GGTGTTC CATAGC,moeA*moeTmoeTmoeG/7deazaOMG/ moeGT*G*G*T*G*T*T*/iMe- dC/*/5-Me- moeC/moeAmoeTmoeAmoeG/5-Me- moeC//isp18//isp18//3CholTEG /,53,64,79,87
+12,hSCN9A v1_2592 -8gap- 5Chol,2592,2611,exon 14,1324,ATTGGGT GGTGTTC CATAGC,/CholTEG//isp18//isp18/moeAm oeTmoeTmoeG/7deazaOMG/moeGT* G*G*T*G*T*T*/iMe-dC/*/5-Me- moeC/moeAmoeTmoeA*moeG*/5- Me-moeC/,73,75,79,88
+13,hSCN9A v1_2592 -LNA,2592,2607,exon 14,4965,GGTGGTG TTCCATA GC,1G*1GlTG*G*T*G*T*T*/iMe- dC/*/iMe-dC/*A*T*lalG/5-Me- 1C//isp18//isp18//3CholTEG/,18,26,35,55
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 M,2 M,0.67 uM,0.22 uM
+2,hSCN9A v1_2592 -MBB,2592,2611,exon 14,1324,ATTGGGT GGTGTTC CATAGO,moeA*moeTmoeTmoeG/7deazaOMG/ G*T*G*G*T*G*T*T*/iMe- dC/*/iMe- dC/*moeAmoeTmoeA*moeG*/5-Me- moeC//isp18//isp18//3CholTEG /,18,27,41,74
+3,hSCN9A v1_2592 -NewPS,2592,2611,exon 14,1324,ATTGGGT GGTGTTC CATAGC,moeA*moeTmoeTmoeG/7deazaOMG/ G*T*G*G*T*G*T*T*/iMe- dC/*/iMe- dC/*moeAmoeTmoeAmoeG/5-Me- moeC//isp18//isp18//3CholTEG /,17,24,35,64
+4,hSCN9A v1_2592 -Nogap,2592,2611,exon 14,1324,ATTGGGT GGTGTTC CATAGC,moeA*moeTmoeT*moeG/7deazaOMG 1*moeGmoeT*moeGmoeG*moeTmoeG *moeTmoeT*/5-Me-moeC//5-Me- moeC/*moeAmoeT*moeAmoeG*/5- Me- moeC//isp18//isp18//3cholTEG /,93,96,90,92
+5,hSCN9A v1_2593 -5Chol,2593,2612,exon 14,4966,CATTGGG TGGTGTT CCATAG,/CholTEG//isp18//isp18//5- Me- moeC/moeAmoeTmoeTmoeG/7deaza G/*G*T*G*G*T*G*T*T*/iMe- dC/*/5-Me- moeC/moeAmoeT*moe*moeG,56,67,88,94
+6,hSCN9A v1_2593 -8gap,2593,2612,exon 14,4966,CATTGGG TGGTGTT CCATAG,/5-Me- moeC/*moeAmoeTmoeTmoeG/7deaz aOMG/G*T*G*G*T*G*T*T*/5-Me- moeC//5-Me- moeC/moeAmoeTmoeAmoeG/isp18/ /isp18//3CholTEG/,56,72,85,88
+7,hSCN9A v1_2593 -8gap- 5Chol,2593,2612,exon 14,4966,CATTGGG TGGTGTT CCATAG,/CholTEG//isp18//isp18//5- Me- moeC/moeAmoeTmoeTmoeG/7deaza OMG/G*T*G*G*T*G*T*T*/5-Me- moeC//5-Me- moeC/moeAmoeT*moeA*moeG,75,80,84,88
+8,hSCN9A v1_2593 -LNA,2593,2608,exon 14,4967,GGGTGGT GTTCCAT AG,1G*/7deazaOMG/1GT*G*G*T*G*T* T*/iMe-dC/*/iMe- dC/*A*lTlalG/isp18//isp18//3 CholTEG/,8,13,23,46
+9,hSCN9A v1_2593 -LNA- 5Chol,2593,2608,exon 14,4967,GGGTGGT GTTCCAT AG,/CholTEG//isp18//isp18/1G/7d eazaOMG/1GT*G*G*T*G*T*T*/iMe -dC/*/iMe-dC/*A*lT*lA*1G,38,43,61,90
+10,hSCN9A v1_2593 -MBB,2593,2612,exon 14,4966,CATTGGG TGGTGTT CCATAG,/5-Me- moeC/*moeAmoeTmoeTmoeG/7deaz aG/*G*T*G*G*T*G*T*T*/iMe- dC/*/5-Me- moeC/moeAmoeT*moeA*moeG/isp1 8//isp18//3CholTEG/,26,35,52,76
+11,hSCN9A v1_2593 -NewPS,2593,2612,exon 14,4966,CATTGGG TGGTGTT CCATAG,/5-Me- moeC/*moeAmoeTmoeTmoeG/7deaz aG/*G*T*G*G*T*G*T*T*/iMe- dC/*/5-Me- moeC/moeAmoeTmoeAmoeG/isp18/ /isp18//3CholTEG/,30,40,58,81
+12,hSCN9A v1_2593 -Nogap,2593,2612,exon 14,4966,CATTGGG TGGTGTT CCATAG,/5-Me- moeC/*moeAmoeT*moeTmoeG*/7de azaOMG/moeG*moeTmoeG*moeGmoe T*moeGmoeT*moeT/5-Me- moeC/*/5-Me- moeC/moeA*moeTmoeA*moeG/isp1 8//isp18//3CholTEG/,102,98,103,103
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression,mRNA (%untreated),
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_2594 -LNA,2594,2609,exon 14,4968,TGGGTGG TGTTCCA TA,1T*1G/7deazaOMG/G*T*G*G*T*G* T*T*/iMe-dc/*/iMe- dc/*lalTlA/isp18//isp18//3ch olTEG/,20,29,41,62
+3,hSCN9A v1_2594 -LNA- 5Chol,2594,2609,exon 14,4968,TGGGTGG TGTTCCA TA,/CholTEG//isp18//isp18/1T1G/ 7deazaOMG/G*T*G*G*T*G*T*T*/i Me-dC/*/iMe-dC/*lA*lT*lA,66,83,82,94
+4,hSCN9A v1_2595 -LNA,2595,2610,exon 14,4969,TTGGGTG GTGTTCC AT,1T*lTlG/7deazaG/*G*T*G*G*T*G *T*T*/iMe-dC/*/5-Me- 1C/lalT/isp18//isp18//3CholT EG/,58,81,94,93
+5,hSCN9A v1_2595 -LNA- 5Chol,2595,2610,exon 14,4969,TTGGGTG GTGTTCC AT,/CholTEG//isp18//isp18/1TlT1 G/7deazaG/*G*T*G*G*I*G*T*T*/ iMe-dC/*/5-Me-1C/*lA*lT,101,106,105,101
+6,hSCN9A v1_2596 -LNA,2596,2611,exon 14,4970,ATTGGGT GGTGTTC CA,lA*lTlTG*/7deazaG/*G*T*G*G*T *G*T*T*/5-Me-1C//5-Me- 1C/1A/isp18//isp18//3CholTEG,24,35,57,76
+7,hSCN9A v1_2597 -LNA,2597,2612,exon 14,4911,CATTGGG TGGTGTT CC,/5-Me- 1C/*lAlTT*G*/7deazaG/*G*T*G* G*T*G*T*1T/5-Me-1C//5-Me- 1C//isp18//isp18//3CholTEG/,12,19,31,58
+8,hSCN9A v1_3351 -5Chol,3351,3370,exon 17,4971,GAAATCT TTGGCTT TTTGGA,/CholTEG//isp18//isp18/moeGm oeAmoeAmoeAmoeT/iMe- dC/*T*T*T*G*G*/iMe- dC/*T*T*T*moeTmoeTmoeG*moeG* moeA,43,51,64,94
+9,hSCN9A v1_3351 -8gap,3351,3370,exon 17,4971,GAAATCT TTGGCTT TTTGGA,moeG*moeAmoeAmoeAmoeT/5-Me- moeC/T*T*T*G*G*/iMe- dC/*T*T*moeTmoeTmoeTmoeGmoeG moeA/isp18//isp18//3CholTEG/,55,60,64,86
+10,hSCN9A v1_3351 -8gap- 5Chol,3351,3370,exon 17,4971,GAAATCT TTGGCTT TTTGGA,/CholTEG//isp18//isp18/moeGm oeAmoeAmoeAmoeT/5-Me- moeC/T*T*T*G*G*/iMe- dC/*T*T*moeTmoeTmoeTmoeG*moe G*moeA,58,71,75,83
+11,hSCN9A v1_3351 -LNA,3351,3366,exon 17,4972,TCTTTGG CTTTTG GA,1T*/5-Me-1C/1TT*T*G*G*/iMe- dC/*T*T*T*T*T*1GlG1A/isp18// isp18//3CholTEG/,50,70,76,87
+12,hSCN9A v1_3351 -MBB,3351,3370,exon 17,4971,GAAATCT TTGGCTT TTTGGA,moeG*moeAmoeAmoeAmoeT/iMe- dC/*T*T*T*G*G*/iMe- dC/*T*T*T*moeTmoeTmoeG*moeG* moeA/isp18//isp18//3CholTEG/,24,36,52,87
+13,hSCN9A v1_3351 -NewPS,3351,3370,exon 17,4971,GAAATCT TTGGCTT TTTGGA,moeG*moeAmoeAmoeAmoeT/iMe- dC/*T*T*T*G*G*/iMe- dC/*T*T*T*moeTmoeTmoeGmoeGmo eA/isp18//isp18//3CholTEG/,23,34,50,77
+14,hSCN9A v1_3351 -NOgap,3351,3370,exon 17,4971,GAAATCT TTGGCTT TTTGGA,moeG*moeAmoeA*moeAmoeT*/5- Me- moeC/moeT*moeTmoeT*moeGmoeG* /5-Me- moeC/moeT*moeTmoeT*moeTmoeT* moeGmoeG*moeA/isp18//isp18// 3CholTEG/,81,97,93,98
+15,hSCN9A v1_3352 -5Chol,3352,3371,exon 17,1704,GGAAATC TTTGGCT TTTTGG,/CholTEG//isp18//isp18/moeGm oeGmoeAmoeAmoeAT*/iMe- d/*T*T*T*G*G*/iMe- dC/*T*T*moeTmoeTmoeT*moeG*mo eG,22,27,51,87
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_3352 -8gap,3352,3371,exon 17,1704,GGAAATC TTTGGCT TTTTGG,loeG*moeGmoeAmoeAmoeAmoeT/iM e-dC/*T*T*T*G*G*/iMe- dC/*T*moeTmoeTmoeTmoeTmoeGmo eG/isp18//isp18//3CholTEG/,52,60,68,87
+3,hSCN9A v1_3352 -8gap- 5Chol,3352,3371,exon 17,1704,GGAAATC TTTGGCT TTTTGG,/CholTEG//isp18//isp18/moeGr beGmoeAmoeAmoeAmoeT/iMe- dC/*T*T*T*G*G*/iMe- dC/*T*moeTmoeTmoeTmoeT*moeG* moeG,49,51,62,82
+4,hSCN9A v1_3352 -LNA,3352,3367,exon 17,4909,ATCTTTG GCTTTTT GG,1A*1T/5-Me- 1C/T*T*T*G*G*/iMe- p18//3CholTEG/,11,17,34,64
+5,hSCN9A v1_3352 -MBB,3352,3371,exon 17,1704,GGAAATC TTTGGCT TTTTGG,moeG*moeGmoeAmoeAmoeAT*/iMe- dC/*T*T*T*G*G*/iMe- dC/*T*T*moeTmoeTmoeT*moeG*mo eG/isp18//isp18//3CholTEG/,15,21,39,79
+6,hSCN9A v1_3352 -NewPS,3352,3371,exon 17,1704,GGAAATC TTTGGCT TTTTGG,moeG*moeGmoeAmoeAmoeAT*/iMe- dC/*T*T*T*G*G*/iMe- dC/*T*T*moeTmoeTmoeTmoeGmoeG /isp18//isp18//3CholTEG/,17,22,31,59
+7,hSCN9A v1_3352 -Nogap,3352,3371,exon 17,1704,GGAAATC TTTGGCT TTTTGG,moeG*moeGmoeA*moeAmoeA*moeT/ 5-Me- moeC/*moeTmoeT*moeTmoeG*moeG /5-Me- moeC/*moeTmoeT*moeTmoeT*moeT moeG*moeG/isp18//isp18//3Cho 1TEG/,82,86,119,94
+8,hSCN9A v1_3353 -5Chol,3353,3372,exon 17,4973,TGGAAAT CTTTGGC TTTTG,/CholTEG//isp18//isp18/moeTm beGmoeGmoeAmoeAA*T*/iMe- d/*T*T*T*G*G*/iMe- dC/*T*moeTmoeTmoeT*moeT*moeG,42,53,65,88
+9,hSCN9A v1_3353 -8gap,3353,3372,exon 17,4973,TGGAAAT CTTTGGC TTTTTG,moeT*moeGmoeGmoeAmoeAmoeAT* / iMe-dC/*T*T*T*G*G*/iMe- dC/*moeTmoeTmoeTmoeTmoeTmoeG /isp18//isp18//3CholTEG/,52,63,77,85
+10,hSCN9A v1_3353 -8gap- 5Chol,3353,3372,exon 17,4973,TGGAAAT CTTTGGC TTTTTG,/CholTEG//isp18//isp18/moeTm oeGmoeGmoeAmoeAmoeAT*/iMe- dC/*T*T*T*G*G*/iMe- dC/*moeTmoeTmoeTmoeT*moeT*mo eG,61,67,78,84
+11,hSCN9A v1_3353 -LNA,3353,3368,exon 17,4974,AATCTTT GGCTTTT TG,1A*1A1T/iMe- dC/*T*T*T*G*G*/iMe- 8//3CholTEG/,29,42,59,80
+12,hSCN9A v1_3353 -LNA- 5Chol,3353,3368,exon 17,4974,AATCTTT GGCTTTT TG,/CholTEG//isp18//isp18/lalAl T/iMe-dC/*T*T*T*G*G*/iMe- dC/*T*T*T*lT*lT*1G,69,81,88,91
+13,hSCN9A v1_3353 -MBB,3353,3372,exon 17,4973,TGGAAAT CTTTGGC TTTTG,moeT*moeGmoeGmoeAmoeAA*T*/iM e-dC/*T*T*T*G*G*/iMe- dC/*T*moeTmoeTmoeT*moeT*moeG /isp18//isp18//3CholTEG/,28,36,50,72
+14,hSCN9A v1_3353 -NewPS,3353,3372,exon 17,4973,TGGAAAT CTTTGGC TTTTG,moeT*moeGmoeGmoeAmoeAA*T*/iM e-dC/*T*T*T*G*G*/iMe- dC/*T*moeTmoeTmoeTmoeTmoeG/i Sp18//isp18//3CholTEG/,36,44,51,75
+15,hSCN9A v1_3353 -Nogap,3353,3372,exon 17,4973,TGGAAAT CTTTGGC TTTTG,moeT*moeGmoeG*moeAmoeA*moeAm oeT*/5-Me- moeC/moeT*moeTmoeT*moeGmoeG* /5-Me- moeC/moeT*moeTmoeT*moeTmoeTt moeG/isp18//isp18//3CholTEG/,95,93,97,99
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_3354 -LNA,3354,3369,exon 17,4975,AAATCTT TGGCTTT TT,lA*lAlAT*/iMe- dc/*T*T*T*G*G*/iMe- dc/*T*T*1TlTlT/isp18//isp18/ /3CholTEG/,63,73,74,72
+3,hSCN9A v1_3354 -LNA- 5Chol,3354,3369,exon 17,4975,AAATCTT TGGCTTT TT,/CholTEG//isp18//isp18/lalal AT*/iMe-dC/*T*T*T*G*G*/iMe- dC/*T*T*lT*lT*lT,94,98,94,93
+4,hSCN9A v1_3355 -LNA,3355,3370,exon 17,4976,GAAATCT TTGGCTT TT,1G*lAlAA*T*/iMe- dC/*T*T*T*G*G*/iMe- dc/*T*1T1TlT/isp18//isp18//3 CholTEG/,82,87,89,83
+5,hSCN9A v1_3355 -LNA- 5Chol,3355,3370,exon 17,4976,GAAATCT TTGGCTT TT,/CholTEG//isp18//isp18/lGlAl AA*T*/iMe- dC/*T*T*T*G*G*/iMe- dC/*T*lT*lT*lT,93,91,92,90
+6,hSCN9A v1_3356 -LNA,3356,3371,exon 17,4977,GGAAATC TTTGGCT TT,1G*1GlAA*A*T*/iMe- dC/*T*T*T*G*G*/iMe- dC/*1T1T1T/isp18//isp18//3Ch olTEG/,30,38,52,70
+7,hSCN9A v1_3357 -LNA,3357,3372,exon 17,4978,TGGAAAT CTTTGGC TT,1T*lGlGA*A*A*T*/iMe- dC/*T*T*T*G*G*/5-Me- 1C/1T1T/isp18//isp18//3CholT EG/,50,58,69,82
+8,hSCN9A v1_3415 -5Chol,3415,3434,exon 17,4979,TGTATGG TTAGAAA TATAGT,/CholTEG//isp18//isp18/moeTm beGmoeTmoeAmoeTG*G*T*T*A*G*A *A*A*T*moeAmoeTmoe*moeG*moe T,56,71,92,107
+9,hSCN9A v1_3415 -8gap,3415,3434,exon 17,4979,TGTATGG TTAGAAA TATAGT,moeT*moeGmoeTmoeAmoeTmoeGG*I *T*A*G*A*A*A*moeTmoeAmoeTmoe AmoeGmoeT/isp18//isp18//3Cho 1TEG/,75,86,92,92
+10,hSCN9A v1_3415 -8gap- 5Chol,3415,3434,exon 17,4979,TGTATGG TTAGAAA TATAGT,/CholTEG//isp18//isp18/moeTm beGmoeTmoeAmoeTmoeGG*T*T*A*G A*A*A*moeTmoeAmoeTmoeA*moeG *moeT,85,85,93,91
+11,hSCN9A v1_3415 -LNA,3415,3430,exon 17,4980,TGGTTAG AAATATA GT,AlG1T/isp18//isp18//3CholTEG /,33,31,50,67
+12,hSCN9A v1_3415 -MBB,3415,3434,exon 17,4979,TGTATGG TTAGAAA TATAGT,moeT*moeGmoeTmoeAmoeTG*G*T*T *A*G*A*A*A*T*moeAmoeTmoeA*mo eG*moeT/isp18//isp18//3CholT EG/,43,50,64,85
+13,hSCN9A v1_3415 -NewPS,3415,3434,exon 17,4979,TGTATGG TTAGAAA TATAGT,moeT*moeGmoeTmoeAmoeTG*G*T*T *A*G*A*A*A*T*moeAmoeTmoeAmoe GmoeT/isp18//isp18//3CholTEG /,43,54,70,87
+14,hSCN9A v1_3415 -Nogap,3415,3434,exon 17,4979,TGTATGG TTAGAAA TATAGT,moeT*moeGmoeT*moeAmoeT*moeGm beG*moeTmoeT*moeAmoeG*moeAmo eA*moeAmoeT*moeAmoeT*moeAmoe G*moeT/isp18//isp18//3CholTE G/,93,94,92,93
+15,hSCN9A v1_3416 -5Chol,3416,3435,exon 17,1736,GTGTATG GTTAGAA ATATAG,/CholTEG//isp18//isp18/moeGm beTmoeGmoeTmoeAT*G*G*T*T*A*G *A*A*A*moeTmoeAmoeT*moe*moe G,64,73,86,89
+16,hSCN9A v1_3416 -8gap,3416,3435,exon 17,1736,GTGTATG GTTAGAA ATATAG,moeG*moeTmoeGmoeTmoeAmoeTG*G *T*T*A*G*A*A*moeAmoeTmoeAmoe TmoeAmoeG/isp18//isp18//3Cho 1TEG/,46,61,75,88
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_3416 -8gap- 5Chol,3416,3435,exon 17,1736,GTGTATG GTTAGAA ATATAG,/CholTEG//isp18//isp18/moeGn beTmoeGmoeTmoeAmoeTG*G*T*T*A *G*A*A*moeAmoeTmoeAmoeT*moeA *moeG,74,78,76,92
+3,hSCN9A v1_3416 -LNA,3416,3431,exon 17,4981,ATGGTTA GAAATAT AG,TlAlG/isp18//isp18//3CholTEG /,24,28,41,62
+4,hSCN9A v1_3416 -MBB,3416,3435,exon 17,1736,GTGTATG GTTAGAA ATATAG,moeG*moeTmoeGmoeTmoeAT*G*G*T *T*A*G*A*A*A*moeTmoeAmoeT*mo eA*moeG/isp18//isp18//3cholT EG/,22,25,38,57
+5,hSCN9A v1_3416 -NewPS,3416,3435,exon 17,1736,GTGTATG GTTAGAA ATATAG,moeG*moeTmoeGmoeTmoeAT*G*G*I T*A*G*A*A*A*moeTmoeAmoeTmoe AmoeG/isp18//isp18//3CholTEG /,20,28,39,62
+6,hSCN9A v1_3416 -Nogap,3416,3435,exon 17,1736,GTGTATG GTTAGAA ATATAG,moeG*moeTmoeG*moeTmoeA*moeTm beG*moeGmoeT*moeTmoeA*moeGmo eA*moeAmoeA*moeTmoe*moeTmoer A*moeG/isp18//isp18//3CholTE,99,98,103,97
+7,hSCN9A v1_3417 -5Chol,3417,3436,exon 17,4982,AGTGTAT GGTTAGA AATATA,/CholTEG//isp18//isp18/moeAm beGmoeTmoeGmoeTA*T*G*G*T*T*A *G*A*A*moeAmoeTmoeA*moeT*moe A,67,73,80,92
+8,hSCN9A v1_3417 -8gap,3417,3436,exon 17,4982,AGTGTAT GGTTAGA AATATA,moeA*moeGmoeTmoeGmoeTmoeAT*G *G*T*T*A*G*A*moeAmoeAmoeTmoe AmoeTmoeA/isp18//isp18//3Cho 1TEG/,75,88,88,92
+9,hSCN9A v1_3417 -8gap- 5Chol,3417,3436,exon 17,4982,AGTGTAT GGTTAGA AATATA,/CholTEG//isp18//isp18/moeAm beGmoeTmoeGmoeTmoeAT*G*G*T*T *A*G*A*moeAmoeAmoeTmoeA*moeT *moeA,86,85,89,90
+10,hSCN9A v1_3417 -LNA,3417,3432,exon 17,4983,TATGGTT AGAAATA TA,AlT1A/isp18//isp18//3CholTEG /,95,95,104,96
+11,hSCN9A v1_3417 -LNA- 5Chol,3417,3432,exon 17,4983,TATGGTT AGAAATA TA,/CholTEG//isp18//isp18/lTlAl TG*G*T*T*A*G*A*A*A*T*lA*lT*l A,99,98,100,94
+12,hSCN9A v1_3417 -MBB,3417,3436,exon 17,4982,AGTGTAT GGTTAGA AATATA,moeA*moeGmoeTmoeGmoeTA*T*G*C *T*T*A*G*A*A*moeAmoeTmoeA*mo eT*moeA/iSp18//isp18//3CholT EG/,31,42,61,81
+13,hSCN9A v1_3417 -NewPS,3417,3436,exon 17,4982,AGTGTAT GGTTAGA AATATA,moeA*moeGmoeTmoeGmoeTA*T*G*G *T*T*A*G*A*A*moeAmoeTmoeAmoe TmoeA/isp18//isp18//3CholTEG /,31,43,53,71
+14,hSCN9A v1_3417 -Nogap,3417,3436,exon 17,4982,AGTGTAT GGTTAGA AATATA,moeA*moeGmoeT*moeGmoeT*moeAm beT*moeGmoeG*moeTmoeT*moeAmo G*moeAmoeA*moeAmoeT*moeAmoe T*moeA/isp18//isp18//3CholTE G/,104,107,103,95
+15,hSCN9A v1_3418 -LNA,3418,3433,exon 17,4984,GTATGGT TAGAAAT AT,TlAlT/isp18//isp18//3CholTEG /,44,57,75,82
+16,hSCN9A v1_3418 -LNA- 5Chol,3418,3433,exon 17,4984,GTATGGT TAGAAAT AT,/CholTEG//isp18//isp18/1GlT1 AT*G*G*T*T*A*G*A*A*A*lT*lA*l T,98,103,110,106
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A (%untreated),mRNA expression,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_3419 -LNA,3419,3434,exon 17,4985,TGTATGG TTAGAAA TA,1T*lGlTA*T*G*G*T*T*A*G*A*A*1 AlTIA/isp18//isp18//3CholTEG /,38,46,61,79
+3,hSCN9A v1_3419 -LNA- 5Chol,3419,3434,exon 17,4985,TGTATGG TTAGAAA TA,/CholTEG//isp18//isp18/1T1G1 TA*T*G*G*T*T*A*G*A*A*lA*lT*l A,82,93,102,108
+4,hSCN9A v1_3420 -LNA,3420,3435,exon 17,4912,GTGTATG GTTAGAA AT,1G*lTlGT*A*T*G*G*T*T*A*G*A*1 AlAlT/isp18//isp18//3CholTEG /,14,21,33,61
+5,hSCN9A v1_3421 -LNA,3421,3436,exon 17,4986,AGTGTAT GGTTAGA AA,lA*1GlTG*T*A*T*G*G*T*T*A*G*1 AlAlA/isp18//isp18//3CholTEG /,18,25,43,63
+6,hSCN9A v1_3439 -5Chol,3439,3458,exon 17,4906,GTGACCT TTGCTCA TTTCAG,/CholTEG//isp18//isp18/moeGm beTmoeGmoeA/5-Me-moeC//iMe- dC/*T*T*T*G*/iMe-dC/*T*/iMe- dC/*A*T*moeTmoeT/5-Me- moeC/*moeA*moeG,12,15,31,74
+7,hSCN9A v1_3439 -8gap,3439,3458,exon 17,4906,GTGACCT TTGCTCA TTTCAG,moeG*moeTmoeGmoeA/5-Me- moeC//5-Me- moeC/T*T*T*G*/iMe- dC/*T*/iMe- dC/*A*moeTmoeTmoeT/5-Me- moeC/moeAmoeG/isp18//isp18// 3CholTEG/,19,26,37,56
+8,hSCN9A v1_3439 -8gap- 5Chol,3439,3458,exon 17,4906,GTGACCT TTGCTCA TTTCAG,/CholTEG//isp18//isp18/moeGm beTmoeGmoeA/5-Me-moeC//5-Me- moeC/T*T*T*G*/iMe- dC/*T*/iMe- dC/*A*moeTmoeTmoeT/5-Me- moeC/*moeA*moeG,46,51,60,78
+9,hSCN9A v1_3439 -LNA,3439,3454,exon 17,4987,CCTTTGC TCATTTC AG,/5-Me-1C/*/5-Me- 1C/1TT*T*G*/iMe-d/*T*/iMe- dC/*A*T*T*T*/5-Me- 1C/la1G/isp18//isp18//3CholT EG/,11,16,24,44
+10,hSCN9A v1_3439 -MBB,3439,3458,exon 17,4906,GTGACCT TTGCTCA TTTCAG,moeG*moeTmoeGmoeA/5-Me- moeC//iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*A*T*moeTmoeT/5-Me- moeC/*moeA*moeG/isp18//isp18 //3CholTEG/,5,7,9,17
+11,hSCN9A v1_3439 -NewPS,3439,3458,exon 17,4906,GTGACCT TTGCTCA TTTCAG,moeG*moeTmoeGmoeA/5-Me- moeC//iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*A*T*moeTmoeT/5-Me- moeC/moeAmoeG/isp18//isp18// 3CholTEG/,6,7,11,22
+12,hSCN9A v1_3439 -Nogap,3439,3458,exon 17,4906,GTGACCT TTGCTCA TTTCAG,moeG*moeTmoeG*moeA/5-Me- moeC/*/5-Me- moeC/moeT*moeTmoeT*moeG/5- Me-moeC/*moeT/5-Me- moeC/*moeAmoeT*moeTmoeT*/5- Me- noeC/moeA*moeG/isp18//isp18/ /3CholTEG/,98,93,88,91
+13,hSCN9A v1_3440 -5Chol,3440,3459,exon 17,1748,TGTGACC TTTGCTC ATTTCA,/CholTEG//isp18//isp18/moeTm beGmoeTmoeGmoeA/iMe- dC/*/iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*A*moeTmoeTmoeT*/5-Me- moeC/*moeA,32,40,57,86
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start Site,End Site,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,,,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_3440 -8gap,3440,3459,exon 17,1748,TGTGACC TTTGCTC ATTTCA,moeT*moeGmoeTmoeGmoeA/5-Me- moeC//iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*moeAmoeTmoeTmoeT/5-Me- moeC/moeA/isp18//isp18//3Cho 1TEG/,29,39,55,76
+3,hSCN9A v1_3440 -8gap- 5Chol,3440,3459,exon 17,1748,TGTGACC TTTGCTC ATTTCA,/CholTEG//isp18//isp18/moeTm oeGmoeTmoeGmoeA/5-Me- moeC//iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*moeAmoeTmoeTmoeT*/5-Me- moeC/*moeA,64,64,72,88
+4,hSCN9A v1_3440 -LNA,3440,3455,exon 17,4988,ACCTTTG CTCATTT CA,lA*/5-Me-1C//5-Me- 1C/T*T*T*G*/iMe-dC/*T*/iMe- dC/*A*T*T*1T/5-Me- 1C/1A/isp18//isp18//3CholTEG /,8,11,17,32
+5,hSCN9A v1_3440 -MBB,3440,3459,exon 17,1748,TGTGACC TTTGCTC ATTTCA,moeT*moeGmoeTmoeGmoeA/iMe- dC/*/iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*A*moeTmoeTmoeT*/5-Me- moeC/*moeA/isp18//isp18//3ch olTEG/,40,46,58,73
+6,hSCN9A v1_3440 -NewPS,3440,3459,exon 17,1748,TGTGACC TTTGCTC ATTTCA,moeT*moeGmoeTmoeGmoeA/iMe- dC/*/iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*A*moeTmoeTmoeT/5-Me- moeC/moeA/isp18//isp18//3Cho 1TEG/,13,17,31,53
+7,hSCN9A v1_3440 -Nogap,3440,3459,exon 17,1748,TGTGACC TTTGCTC ATTTCA,moeT*moeGmoeT*moeGmoeA*/5- Me-moeC//5-Me- moeC/*moeTmoeT*moeTmoeG*/5- Me-moeC/moeT*/5-Me- moeC/moeA*moeTmoeT*moeT/5- Me- moeC/*moeA/isp18//isp18//3ch olTEG/,80,85,95,94
+8,hSCN9A v1_3441 -5Chol,3441,3460,exon 17,4989,TTGTGAC CTTTGCT CATTTC,/CholTEG//isp18//isp18/moeTm DeTmoeGmoeTmoeGA*/iMe- dC/*/iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*moeAmoeTmoeT*moeT*/5-Me- moeC/,65,68,76,85
+9,hSCN9A v1_3441 -8gap,3441,3460,exon 17,4989,TTGTGAC CTTTGCT CATTTC,moeT*moeTmoeGmoeTmoeGmoeA/iM e-dC/*/iMe-dC/*T*T*T*G*/iMe- dC/*T*/5-Me- moeC/moeAmoeTmoeTmoeT/5-Me- moeC//isp18//isp18//3CholTEG /,54,66,87,91
+10,hSCN9A v1_3441 -8gap- 5Chol,3441,3460,exon 17,4989,TTGTGAC CTTTGCT CATTTC,/CholTEG//isp18//isp18/moeTm beTmoeGmoeTmoeGmoeA/iMe- dC/*/iMe-dC/*T*T*T*G*/iMe- dC/*T*/5-Me- moeC/moeAmoeTmoeT*moeT*/5- Me-moeC/,74,75,80,87
+11,hSCN9A v1_3441 -LNA,3441,3456,exon 17,4990,GACCTTT GCTCATT TC,1G*lA/5-Me-1C//iMe- dC/*T*T*T*G*/iMe-dC/*T*/iMe- dC/*A*T*lTlT/5-Me- 1C//isp18//isp18//3CholTEG/,9,12,23,46
+12,hSCN9A v1_3441 -LNA- 5Chol,3441,3456,exon 17,4990,GACCTTT GCTCATT TC,/CholTEG//isp18//isp18/1Gla/ 5-Me-1C//iMe- dC/*T*T*T*G*/iMe-dC/*T*/iMe- dC/*A*T*lT*lT*/5-Me-1C/,54,57,65,76
+
+,0,1,2,3,4,5,6,7,8,9,10
+0,SNA Name,Start,End,SCN9A Target,SEQ ID,Antisense Sequence,ASO Structure (5' to 3'),,SCN9A expression (%untreated),mRNA,
+1,,Site,Site,Region,NO,(5' to 3'),,6 uM,2 uM,0.67 uM,0.22 uM
+2,hSCN9A v1_3441 -MBB,3441,3460,exon 17,4989,TTGTGAC CTTTGCT CATTTC,moeT*moeTmoeGmoeTmoeGA*/iMe dC/*/iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*moeAmoeTmoeT*moeT*/5-Me- moeC//isp18//isp18//3CholTEG /,28,35,46,63
+3,hSCN9A v1_3441 -NewPS,3441,3460,exon 17,4989,TTGTGAC CTTTGCT CATTTC,moeT*moeTmoeGmoeTmoeGA*/iMe- dC/*/iMe-dC/*T*T*T*G*/iMe- dC/*T*/iMe- dC/*moeAmoeTmoeTmoeT/5-Me- moeC//isp18//isp18//3CholTEG /,33,42,54,67
+4,hSCN9A v1_3441 -Nogap,3441,3460,exon 17,4989,TTGTGAC CTTTGCT CATTTC,moeT*moeTmoeG*moeTmoeG*moeA/ 5-Me-moeC/*/5-Me- moeC/moeT*moeTmoeT*moeG/5- Me-moeC/*moeT/5-Me- moeC/*moeAmoeT*moeTmoeT*/5- Me- moeC//isp18//isp18//3CholTEG /,83,94,109,129
+5,hSCN9A v1_3442 -LNA,3442,3457,exon 17,4991,TGACCTT TGCTCAT TT,1T*lGlA/iMe-dC/*/iMe- dC/*T*T*T*G*/iMe-dC/*T*/iMe- dC/*A*1T1TlT/isp18//isp18//3 CholTEG/,17,26,37,58
+6,hSCN9A v1_3442 -LNA- 5Chol,3442,3457,exon 17,4991,TGACCTT TGCTCAT TT,/CholTEG//isp18//isp18/1T1G1 A/iMe-dC/*/iMe- dC/*T*T*T*G*/iMe-dC/*T*/iMe- dC/*A*lT*lT*lT,74,74,74,85
+7,hSCN9A v1_3443 -LNA,3443,3458,exon 17,4992,GTGACCT TTGCTCA TT,1G*1TlGA*/iMe-dC/*/iMe- d/*T*T*T*G*/iMe-dc/*T*/iMe- dC/*lAlT1T/isp18//isp18//3ch olTEG/,44,61,82,91
+8,hSCN9A v1_3443 -LNA- 5Chol,3443,3458,exon 17,4992,GTGACCT TTGCTCA TT,/CholTEG//isp18//isp18/1G1T1 GA*/iMe-dC/*/iMe- dC/*T*T*T*G*/iMe-dC/*T*/iMe- dC/*1A*IT*IT,75,81,100,99
+9,hSCN9A v1_3444 -LNA,3444,3459,exon 17,4993,TGTGACC TTTGCTC AT,1T*1GlTG*A*/iMe-dc/*/iMe- dC/*T*I*T*G*/iMe-dC/*T*/5- Me- 1C/lAlT/isp18//isp18//3Cholt EG/,53,67,79,92
+10,hSCN9A v1_3445 -LNA,3445,3460,exon 17,4994,TTGTGAC CTTTGCT CA,1T*lTlGT*G*A*/iMe-dC/*/iMe- dC/*T*T*T*G*/iMe-dC/*1T/5- Me- 1C/1A/isp18//isp18//3CholTEG /,24,34,45,60
+

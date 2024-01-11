@@ -1,6 +1,6 @@
 import React from "react";
 
-export const modalForm = () =>{
+export const modalForm = (editedItem) =>{
 
     return <>
                 	<div className="popup">

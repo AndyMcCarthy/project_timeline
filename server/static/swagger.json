@@ -18,6 +18,19 @@
           }
         }
       },
+      "/api/timelinetoo": {
+        "get": {
+          "description": "Returns timeline information",
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful operation"
+            }
+          }
+        }
+      },
       "/api/question": {
         "post": {
           "description": "Answers users questions to an user",

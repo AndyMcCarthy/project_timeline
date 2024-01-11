@@ -5,6 +5,16 @@ margin: 0vw
 }
 
 
+.form-box textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    }
+
+
+
 .Sbmtbtn{
     margin: 1rem 0 1rem 0;
     display: inline-block;
