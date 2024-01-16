@@ -2,6 +2,7 @@
 #.\venv\Scripts\activate
 # http://localhost:8080/api/timeline
 # pip install .\llama_cpp_python-0.2.24-cp311-cp311-win_amd64.whl
+#docker run -p "127.0.0.1:8080:8080" -d server
 from flask import Flask, jsonify, request, abort
 from flask_cors import CORS
 import pickle
@@ -13,8 +14,8 @@ import datetime
 
 load_dotenv()
 # load
-with open("my_docs.pkl", "rb") as f:
-    docs = pickle.load(f)
+#with open("my_docs.pkl", "rb") as f:
+#    docs = pickle.load(f)
 # app instance
 app = Flask(__name__)
 CORS(app)
@@ -72,4 +73,4 @@ app.register_blueprint(swagger_ui_blueprint, url_prefix=SWAGGER_URL)
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8080)
+    app.run(host = "0.0.0.0",  port=8080)

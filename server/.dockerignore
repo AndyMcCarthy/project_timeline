@@ -1,0 +1,5 @@
+/venv
+OCR_from_patents.py
+paperQA_build.py
+test_llama_cpp.py
+.env
